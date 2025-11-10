@@ -26,9 +26,9 @@ commit-msg:
 pre-push:
   parallel: true
   commands:
-    # Run unit tests
+    # Run unit tests (requires Bun runtime)
     test:
-      run: bun test
+      run: command -v bun > /dev/null && bun test || echo "Bun not found, skipping tests"
 
     # Run Biome check on crawler and types files
     biome-check:

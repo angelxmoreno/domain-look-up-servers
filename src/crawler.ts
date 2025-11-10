@@ -1,6 +1,6 @@
-import * as cheerio from 'cheerio';
 import { writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import * as cheerio from 'cheerio';
 import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
