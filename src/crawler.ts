@@ -5,6 +5,7 @@ import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
 const IANA_BASE_URL = 'https://www.iana.org';
+const FETCH_TIMEOUT_MS = 30000; // 30 second timeout
 
 interface TLDInfo {
     tld: string;
@@ -17,6 +18,11 @@ interface TLDInfo {
 async function fetchTLDs(): Promise<TLDInfo[]> {
     console.log('Fetching IANA root database...');
     const response = await fetch(IANA_ROOT_DB_URL);
+
+    if (!response.ok) {
+        throw new Error(`Failed to fetch IANA root database: ${response.status} ${response.statusText}`);
+    }
+
     const html = await response.text();
 
     const $ = cheerio.load(html);
@@ -44,9 +50,9 @@ async function fetchTLDs(): Promise<TLDInfo[]> {
 /**
  * Clean and extract server hostname from text
  */
-function cleanServerName(text: string): string | null {
+function cleanServerName(text: string): string | undefined {
     if (!text || text === 'None' || text.includes('Not assigned')) {
-        return null;
+        return undefined;
     }
 
     // Remove common prefixes and clean up
@@ -62,21 +68,21 @@ function cleanServerName(text: string): string | null {
         return hostnameMatch[0].toLowerCase().trim();
     }
 
-    return null;
+    return undefined;
 }
 
 /**
  * Clean and extract RDAP URL from text
  */
-function cleanRdapUrl(url: string): string | null {
-    if (!url) return null;
+function cleanRdapUrl(url: string): string | undefined {
+    if (!url) return undefined;
 
     // Remove trailing punctuation and whitespace
     url = url.replace(/[,.\s]+$/, '').trim();
 
     // Validate it's a proper HTTP(S) URL
     if (!url.match(/^https?:\/\/.+/i)) {
-        return null;
+        return undefined;
     }
 
     return url;
@@ -88,11 +94,16 @@ function cleanRdapUrl(url: string): string | null {
 async function fetchTLDDetails(tldInfo: TLDInfo): Promise<LookUpEntry> {
     try {
         const response = await fetch(tldInfo.detailUrl);
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+
         const html = await response.text();
         const $ = cheerio.load(html);
 
-        let whois: string | null = null;
-        let rdap: string | null = null;
+        let whois: string | undefined = undefined;
+        let rdap: string | undefined = undefined;
 
         // Find WHOIS server
         // Looking for a section that contains "WHOIS Server:"
@@ -159,15 +170,12 @@ async function fetchTLDDetails(tldInfo: TLDInfo): Promise<LookUpEntry> {
         }
 
         return {
-            whois: whois || null,
-            rdap: rdap || null
+            whois,
+            rdap
         };
     } catch (error) {
         console.error(`Error fetching details for ${tldInfo.tld}:`, error);
-        return {
-            whois: null,
-            rdap: null
-        };
+        return {};
     }
 }
 
@@ -239,12 +247,7 @@ async function generateServersFile(data: LookUpRecord): Promise<void> {
         })
         .join(',\n');
 
-    const content = `export type LookUpEntry = {
-    whois?: string | null;
-    rdap?: string | null;
-}
-
-export type LookUpRecord = Record<string, LookUpEntry>;
+    const content = `import type { LookUpEntry, LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
 ${entries}
@@ -279,5 +282,7 @@ async function main() {
     }
 }
 
-// Run the crawler
-main();
+// Run the crawler only if this is the main module
+if (import.meta.main) {
+    main();
+}

@@ -1,18 +1,9 @@
-export type LookUpEntry = {
-    whois?: string | null;
-    rdap?: string | null;
-}
-
-export type LookUpRecord = Record<string, LookUpEntry>;
+import type { LookUpEntry, LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
     aaa: {
         whois: 'whois.nic.aaa',
         rdap: 'https://rdap.nic.aaa/'
-    },
-    aarp: {
-        whois: 'whois.nic.aarp',
-        rdap: 'https://rdap.nic.aarp'
     },
     abb: {
         whois: 'whois.nic.abb',
@@ -82,10 +73,6 @@ export const domainLookUpServers: LookUpRecord = {
         whois: 'whois.nic.aeg',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    aero: {
-        whois: 'whois.aero',
-        rdap: 'https://rdap.identitydigital.services/rdap/'
-    },
     aetna: {
         rdap: 'https://rdap.nic.aetna/'
     },
@@ -148,10 +135,6 @@ export const domainLookUpServers: LookUpRecord = {
         whois: 'whois.nic.allstate',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ally: {
-        whois: 'whois.nic.ally',
-        rdap: 'https://rdap.nic.ally'
-    },
     alsace: {
         whois: 'whois.nic.alsace',
         rdap: 'https://rdap.nic.alsace'
@@ -212,7 +195,6 @@ export const domainLookUpServers: LookUpRecord = {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
     apple: {
-        whois: 'whois.nic.apple',
         rdap: 'https://rdap.nic.apple/'
     },
     aquarelle: {
@@ -373,6 +355,10 @@ export const domainLookUpServers: LookUpRecord = {
     bayern: {
         whois: 'whois.nic.bayern',
         rdap: 'https://rdap.nic.bayern/'
+    },
+    bbc: {
+        whois: 'whois.nic.bbc',
+        rdap: 'https://rdap.nominet.uk/bbc/'
     },
     bbt: {
         whois: 'whois.nic.bbt',
@@ -811,9 +797,6 @@ export const domainLookUpServers: LookUpRecord = {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    clinic: {
-        rdap: 'https://rdap.identitydigital.services/rdap/'
-    },
     clinique: {
         whois: 'whois.nic.clinique',
         rdap: 'https://rdap.identitydigital.services/rdap/'
@@ -828,10 +811,6 @@ export const domainLookUpServers: LookUpRecord = {
     club: {
         whois: 'whois.nic.club',
         rdap: 'https://rdap.nic.club/'
-    },
-    clubmed: {
-        whois: 'whois.nic.clubmed',
-        rdap: 'https://rdap.identitydigital.services/rdap/'
     },
     cm: {
         whois: 'whois.nic.cm',
@@ -1076,10 +1055,6 @@ export const domainLookUpServers: LookUpRecord = {
     diamonds: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    diet: {
-        whois: 'whois.nic.diet',
-        rdap: 'https://rdap.centralnic.com/diet/'
-    },
     digital: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
@@ -1213,10 +1188,6 @@ export const domainLookUpServers: LookUpRecord = {
     enterprises: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    epson: {
-        whois: 'whois.nic.epson',
-        rdap: 'https://rdap.gmoregistry.net/rdap/'
-    },
     equipment: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
@@ -1325,10 +1296,6 @@ export const domainLookUpServers: LookUpRecord = {
     },
     fidelity: {
         whois: 'whois.nic.fidelity',
-        rdap: 'https://rdap.identitydigital.services/rdap/'
-    },
-    fido: {
-        whois: 'whois.nic.fido',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
     film: {
@@ -2253,6 +2220,10 @@ export const domainLookUpServers: LookUpRecord = {
         whois: 'whois.nic.lifeinsurance',
         rdap: 'https://rdap.nic.lifeinsurance/'
     },
+    lifestyle: {
+        whois: 'whois.tucowsregistry.net',
+        rdap: 'https://rdap.tucowsregistry.net/rdap/'
+    },
     lighting: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
@@ -2636,9 +2607,6 @@ export const domainLookUpServers: LookUpRecord = {
     nba: {
         rdap: 'https://rdap.nic.nba/'
     },
-    nc: {
-        whois: 'whois.nc'
-    },
     nec: {
         whois: 'whois.nic.nec',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
@@ -2954,6 +2922,9 @@ export const domainLookUpServers: LookUpRecord = {
         whois: 'whois.nic.ping',
         rdap: 'https://rdap.nic.ping/'
     },
+    pink: {
+        rdap: 'https://rdap.identitydigital.services/rdap/'
+    },
     pioneer: {
         rdap: 'https://rdap.nominet.uk/pioneer/'
     },
@@ -3120,6 +3091,10 @@ export const domainLookUpServers: LookUpRecord = {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
     red: {
+        rdap: 'https://rdap.identitydigital.services/rdap/'
+    },
+    redumbrella: {
+        whois: 'whois.nic.redumbrella',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
     rehab: {
@@ -3684,6 +3659,10 @@ export const domainLookUpServers: LookUpRecord = {
     talk: {
         rdap: 'https://rdap.nominet.uk/talk/'
     },
+    taobao: {
+        whois: 'whois.nic.taobao',
+        rdap: 'https://rdap.identitydigital.services/rdap/'
+    },
     target: {
         rdap: 'https://rdap.nic.target/'
     },
@@ -4206,9 +4185,6 @@ export const domainLookUpServers: LookUpRecord = {
     wtf: {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    xbox: {
-        rdap: 'https://rdap.nominet.uk/xbox/'
-    },
     xerox: {
         whois: 'whois.nic.xerox',
         rdap: 'https://rdap.nic.xerox/'
@@ -4255,6 +4231,10 @@ export const domainLookUpServers: LookUpRecord = {
     yoga: {
         whois: 'whois.nic.yoga',
         rdap: 'https://rdap.nic.yoga/'
+    },
+    yokohama: {
+        whois: 'whois.nic.yokohama',
+        rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
     you: {
         rdap: 'https://rdap.nominet.uk/you/'
@@ -4564,9 +4544,6 @@ export const domainLookUpServers: LookUpRecord = {
     みんな: {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    世界: {
-        rdap: 'https://rdap.teleinfo.cn/xn--rhqv96g/'
-    },
     中信: {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--fiq64b'
@@ -4724,6 +4701,10 @@ export const domainLookUpServers: LookUpRecord = {
     组织机构: {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
+    },
+    网址: {
+        whois: 'whois.nic.xn',
+        rdap: 'https://rdap.zdnsgtld.com/xn--ses554g'
     },
     网店: {
         whois: 'whois.gtld.knet.cn',

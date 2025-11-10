@@ -59,12 +59,7 @@ if (domainLookUpServers.org?.rdap) {
 The generated `src/servers.ts` file has the following structure:
 
 ```typescript
-export type LookUpEntry = {
-    whois?: string | null;
-    rdap?: string | null;
-}
-
-export type LookUpRecord = Record<string, LookUpEntry>;
+import type { LookUpEntry, LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
     com: {

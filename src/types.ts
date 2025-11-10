@@ -1,6 +1,6 @@
 export type LookUpEntry = {
-    whois?: string | null;
-    rdap?: string | null;
+    whois?: string;
+    rdap?: string;
 }
 
 export type LookUpRecord = Record<string, LookUpEntry>;
