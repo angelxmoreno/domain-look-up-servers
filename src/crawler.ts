@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
-import { writeFile } from 'fs/promises';
-import { join } from 'path';
+import { writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
@@ -131,7 +131,7 @@ async function fetchTLDDetails(tldInfo: TLDInfo): Promise<LookUpEntry> {
         const $next = $(element).next();
         if ($next.is('a')) {
           const href = $next.attr('href');
-          if (href && href.startsWith('http')) {
+          if (href?.startsWith('http')) {
             rdap = cleanRdapUrl(href);
           }
         } else {
