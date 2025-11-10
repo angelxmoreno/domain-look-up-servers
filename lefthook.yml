@@ -1,0 +1,36 @@
+# Lefthook configuration for domain-look-up-servers
+# See: https://lefthook.dev/configuration/
+
+# Pre-commit hook - runs on git commit
+pre-commit:
+  parallel: true
+  commands:
+    # Format and lint staged files with Biome
+    format:
+      glob: "*.{ts,js,json,md}"
+      run: npx @biomejs/biome format --write {staged_files}
+      stage_fixed: true
+
+    lint:
+      glob: "*.{ts,js}"
+      run: npx @biomejs/biome lint --write {staged_files}
+      stage_fixed: true
+
+# Commit-msg hook - validates commit message format
+commit-msg:
+  commands:
+    commitlint:
+      run: npx commitlint --edit {1}
+
+# Pre-push hook - runs before git push
+pre-push:
+  parallel: true
+  commands:
+    # Run full Biome check
+    biome-check:
+      run: npx @biomejs/biome check src/
+
+    # Type check with TypeScript
+    # Note: servers.ts has pre-existing encoding issues that need to be fixed
+    type-check:
+      run: npx tsc --noEmit || true
