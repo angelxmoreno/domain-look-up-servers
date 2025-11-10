@@ -26,6 +26,10 @@ commit-msg:
 pre-push:
   parallel: true
   commands:
+    # Run unit tests
+    test:
+      run: bun test
+
     # Run Biome check on crawler and types files
     biome-check:
       run: npx @biomejs/biome check src/crawler.ts src/types.ts

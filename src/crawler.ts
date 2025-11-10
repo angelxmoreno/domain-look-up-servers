@@ -51,7 +51,7 @@ async function fetchTLDs(): Promise<TLDInfo[]> {
 /**
  * Clean and extract server hostname from text
  */
-function cleanServerName(text: string): string | undefined {
+export function cleanServerName(text: string): string | undefined {
   if (!text || text === 'None' || text.includes('Not assigned')) {
     return undefined;
   }
@@ -75,7 +75,7 @@ function cleanServerName(text: string): string | undefined {
 /**
  * Clean and extract RDAP URL from text
  */
-function cleanRdapUrl(url: string): string | undefined {
+export function cleanRdapUrl(url: string): string | undefined {
   if (!url) return undefined;
 
   // Remove trailing punctuation and whitespace
