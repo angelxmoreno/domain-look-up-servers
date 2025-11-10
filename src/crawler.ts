@@ -5,7 +5,6 @@ import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
 const IANA_BASE_URL = 'https://www.iana.org';
-const FETCH_TIMEOUT_MS = 30000; // 30 second timeout
 
 interface TLDInfo {
     tld: string;

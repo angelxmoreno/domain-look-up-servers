@@ -76,7 +76,7 @@ export const domainLookUpServers: LookUpRecord = {
 
 ## Project Structure
 
-```
+```text
 domain-look-up-servers/
 ├── src/
 │   ├── crawler.ts    # Main crawler script
