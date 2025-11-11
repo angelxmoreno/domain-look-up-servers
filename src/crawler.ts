@@ -293,7 +293,7 @@ async function processTLDs(tlds: TLDInfo[], forceRefresh: boolean): Promise<Look
 
         const batchResults = await Promise.all(
             batch.map(async (tldInfo) => {
-                let details: LookUpEntry;
+                let details: LookUpEntry = {};
                 let fromCache = false;
 
                 // Try to load from cache first (unless force refresh)
