@@ -244,11 +244,11 @@ async function generateServersFile(data: LookUpRecord): Promise<void> {
       const indent = '        ';
       const propsStr = props.join(`,\n${indent}`);
 
-      return `    ${tld}: {\n${indent}${propsStr}\n    }`;
+      return `    '${tld}': {\n${indent}${propsStr}\n    }`;
     })
     .join(',\n');
 
-  const content = `import type { LookUpEntry, LookUpRecord } from './types';
+  const content = `import type { LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
 ${entries}
