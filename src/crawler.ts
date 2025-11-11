@@ -1,14 +1,73 @@
-import { writeFile } from 'node:fs/promises';
+import { writeFile, readFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
+import { existsSync } from 'node:fs';
 import * as cheerio from 'cheerio';
 import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
 const IANA_BASE_URL = 'https://www.iana.org';
+const CACHE_DIR = join(process.cwd(), '.cache');
+const CACHE_FILE = join(CACHE_DIR, 'tld-data.json');
+const CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
 
 interface TLDInfo {
   tld: string;
   detailUrl: string;
+}
+
+interface CachedData {
+  timestamp: number;
+  data: LookUpRecord;
+}
+
+/**
+ * Load cached data if it exists and is still valid
+ */
+async function loadCache(): Promise<LookUpRecord | null> {
+  try {
+    if (!existsSync(CACHE_FILE)) {
+      return null;
+    }
+
+    const content = await readFile(CACHE_FILE, 'utf-8');
+    const cached: CachedData = JSON.parse(content);
+
+    const age = Date.now() - cached.timestamp;
+    if (age > CACHE_DURATION) {
+      console.log('Cache expired (older than 7 days)');
+      return null;
+    }
+
+    console.log(
+      `Using cached data (${Math.round(age / (24 * 60 * 60 * 1000))} days old)`
+    );
+    return cached.data;
+  } catch (error) {
+    console.warn('Failed to load cache:', error);
+    return null;
+  }
+}
+
+/**
+ * Save data to cache
+ */
+async function saveCache(data: LookUpRecord): Promise<void> {
+  try {
+    // Ensure cache directory exists
+    if (!existsSync(CACHE_DIR)) {
+      await mkdir(CACHE_DIR, { recursive: true });
+    }
+
+    const cached: CachedData = {
+      timestamp: Date.now(),
+      data,
+    };
+
+    await writeFile(CACHE_FILE, JSON.stringify(cached, null, 2), 'utf-8');
+    console.log('Saved data to cache');
+  } catch (error) {
+    console.warn('Failed to save cache:', error);
+  }
 }
 
 /**
@@ -226,38 +285,20 @@ async function processTLDs(tlds: TLDInfo[]): Promise<LookUpRecord> {
 }
 
 /**
- * Generate the servers.ts file
+ * Generate the servers.json file
  */
 async function generateServersFile(data: LookUpRecord): Promise<void> {
-  const entries = Object.entries(data)
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([tld, entry]) => {
-      const props: string[] = [];
+  // Sort the data alphabetically by TLD
+  const sortedData: LookUpRecord = {};
+  Object.keys(data)
+    .sort((a, b) => a.localeCompare(b))
+    .forEach((tld) => {
+      sortedData[tld] = data[tld];
+    });
 
-      if (entry.whois) {
-        props.push(`whois: '${entry.whois}'`);
-      }
-      if (entry.rdap) {
-        props.push(`rdap: '${entry.rdap}'`);
-      }
-
-      const indent = '        ';
-      const propsStr = props.join(`,\n${indent}`);
-
-      return `    '${tld}': {\n${indent}${propsStr}\n    }`;
-    })
-    .join(',\n');
-
-  const content = `import type { LookUpRecord } from './types';
-
-export const domainLookUpServers: LookUpRecord = {
-${entries}
-};
-`;
-
-  const outputPath = join(process.cwd(), 'src', 'servers.ts');
-  await writeFile(outputPath, content, 'utf-8');
-  console.log(`\nGenerated servers.ts with ${Object.keys(data).length} TLDs`);
+  const outputPath = join(process.cwd(), 'servers.json');
+  await writeFile(outputPath, JSON.stringify(sortedData, null, 2), 'utf-8');
+  console.log(`\nGenerated servers.json with ${Object.keys(data).length} TLDs`);
 }
 
 /**
@@ -267,11 +308,31 @@ async function main() {
   try {
     console.log('Starting IANA domain crawler...\n');
 
-    // Fetch all TLDs
-    const tlds = await fetchTLDs();
+    const forceRefresh = process.argv.includes('--force');
 
-    // Process each TLD to get WHOIS/RDAP info
-    const lookupData = await processTLDs(tlds);
+    // Try to load from cache first
+    let lookupData: LookUpRecord | null = null;
+
+    if (!forceRefresh) {
+      lookupData = await loadCache();
+    } else {
+      console.log('Force refresh enabled. Ignoring cache.\n');
+    }
+
+    if (lookupData) {
+      console.log('Using cached data. Run with --force to refresh.\n');
+    } else {
+      console.log('Fetching fresh data from IANA...\n');
+
+      // Fetch all TLDs
+      const tlds = await fetchTLDs();
+
+      // Process each TLD to get WHOIS/RDAP info
+      lookupData = await processTLDs(tlds);
+
+      // Save to cache for future runs
+      await saveCache(lookupData);
+    }
 
     // Generate the output file
     await generateServersFile(lookupData);
