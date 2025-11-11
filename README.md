@@ -124,6 +124,78 @@ domain-look-up-servers/
 
 **Why incremental caching?** If the crawler fails at TLD #500 due to network issues, the next run will use the 500 cached TLDs and only fetch the remaining 800+. This makes the crawler resilient and efficient.
 
+## Caching
+
+### Cache Location
+
+The crawler stores cached TLD data in `.cache/tlds/` directory:
+- Each TLD has its own JSON file (e.g., `.cache/tlds/com.json`)
+- Each cache file contains the TLD data plus a timestamp
+- Cache files are automatically checked for expiry (7 days)
+- The `.cache/` directory is gitignored
+
+### Cache Management
+
+**View cache statistics:**
+```bash
+ls .cache/tlds/ | wc -l  # Count cached TLDs
+```
+
+**Clear all cache:**
+```bash
+rm -rf .cache/
+```
+
+**Clear specific TLD cache:**
+```bash
+rm .cache/tlds/com.json
+```
+
+**Force refresh (ignores all cache):**
+```bash
+bun run crawl --force
+```
+
+### Cache Benefits
+
+- **Performance**: Subsequent runs are nearly instant if cache is fresh
+- **Resilience**: Partial failures don't lose progress
+- **Respectful**: Reduces load on IANA servers
+- **Cost-effective**: Minimizes network requests
+
+## Output Format
+
+### JSON Structure
+
+The crawler generates `servers.json` at the project root with the following structure:
+
+```json
+{
+  "tld": {
+    "whois": "hostname",
+    "rdap": "https://url/"
+  }
+}
+```
+
+Both `whois` and `rdap` fields are optional. Some TLDs may only have one or the other.
+
+### Why JSON?
+
+- **Universal**: Works with any programming language
+- **Lightweight**: Smaller file size than TypeScript
+- **Portable**: Easy to integrate into non-JavaScript projects
+- **Standard**: Native support in all modern environments
+
+### File Location
+
+The `servers.json` file is generated at the project root and should be:
+- ✅ Committed to version control (contains your crawled data)
+- ✅ Distributed with your package/project
+- ✅ Used as a data source by applications
+
+The `.cache/` directory should **not** be committed (already in `.gitignore`).
+
 ## Development
 
 Watch mode for development:

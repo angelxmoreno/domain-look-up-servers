@@ -5,9 +5,9 @@
 pre-commit:
   parallel: true
   commands:
-    # Format and lint staged files with Biome
+    # Format staged files with Biome (excludes .md as biome doesn't support markdown)
     format:
-      glob: "*.{ts,js,json,md}"
+      glob: "*.{ts,js,json}"
       run: npx @biomejs/biome format --write {staged_files}
       stage_fixed: true
 
