@@ -7,7 +7,7 @@ A TypeScript/Bun project that crawls the [IANA Root Database](https://www.iana.o
 - 🚀 Fast crawling using Bun runtime
 - 📊 Extracts WHOIS and RDAP server information for 1300+ TLDs
 - 🔄 Batch processing with rate limiting to be respectful to IANA servers
-- 💾 Smart caching system (7-day cache) to avoid repeated API calls
+- 💾 Incremental per-TLD caching system (7-day cache) for resilient crawling
 - 📄 Generates JSON output for universal language support
 
 ## Requirements
@@ -35,11 +35,13 @@ bun run crawl
 ```
 
 This will:
-1. Check for cached data (valid for 7 days)
-2. If cache is valid, use cached data
-3. Otherwise, fetch all TLDs from the IANA root database
-4. Visit each TLD's detail page to extract WHOIS and RDAP servers
-5. Save results to cache and generate `servers.json`
+1. Fetch the list of all TLDs from the IANA root database
+2. For each TLD, check if cached data exists (valid for 7 days)
+3. Use cached data if available, otherwise fetch from IANA
+4. Save each TLD to cache immediately after fetching
+5. Generate `servers.json` with all collected data
+
+**Resilient crawling**: If the crawler fails midway (e.g., network error at TLD #500), the next run will automatically pick up where it left off. Already-cached TLDs are skipped, and only missing or expired TLDs are fetched.
 
 ### Force Refresh
 
@@ -94,7 +96,10 @@ print(com_servers['whois'])  # whois.verisign-grs.com
 ```text
 domain-look-up-servers/
 ├── .cache/          # Cache directory (gitignored)
-│   └── tld-data.json  # Cached TLD data (7-day expiry)
+│   └── tlds/        # Individual TLD cache files
+│       ├── com.json
+│       ├── org.json
+│       └── ... (1300+ files, 7-day expiry each)
 ├── src/
 │   ├── crawler.ts    # Main crawler script
 │   └── types.ts      # TypeScript type definitions
@@ -108,14 +113,16 @@ domain-look-up-servers/
 
 ## How It Works
 
-1. **Check Cache**: First checks if cached data exists and is less than 7 days old
-2. **Fetch TLD List**: If no valid cache, fetches the IANA root database page which contains a table of all TLDs
-3. **Extract Detail URLs**: For each TLD, extracts the URL to the TLD's detail page
-4. **Parse Details**: Visits each detail page and extracts:
-   - WHOIS server hostname (e.g., `whois.verisign-grs.com`)
-   - RDAP service URL (e.g., `https://rdap.verisign.com/com/v1/`)
-5. **Save Cache**: Stores the collected data in `.cache/tld-data.json` for future runs
-6. **Generate Output**: Formats all data and writes to `servers.json` at the project root
+1. **Fetch TLD List**: Fetches the IANA root database page which contains a table of all 1300+ TLDs
+2. **Extract Detail URLs**: For each TLD, extracts the URL to the TLD's detail page
+3. **Incremental Processing**: For each TLD (processed in batches of 10):
+   - **Check Cache**: Looks for `.cache/tlds/{tld}.json` with data less than 7 days old
+   - **Use Cache or Fetch**: If cached and valid, uses cached data; otherwise fetches from IANA
+   - **Parse Details**: If fetching, extracts WHOIS server hostname and RDAP service URL
+   - **Save Immediately**: Caches the result immediately after fetching (resilient to failures)
+4. **Generate Output**: Combines all cached and fetched data, sorts alphabetically, and writes to `servers.json`
+
+**Why incremental caching?** If the crawler fails at TLD #500 due to network issues, the next run will use the 500 cached TLDs and only fetch the remaining 800+. This makes the crawler resilient and efficient.
 
 ## Development
 

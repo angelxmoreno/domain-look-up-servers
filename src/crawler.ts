@@ -6,8 +6,7 @@ import type { LookUpEntry, LookUpRecord } from './types';
 
 const IANA_ROOT_DB_URL = 'https://www.iana.org/domains/root/db';
 const IANA_BASE_URL = 'https://www.iana.org';
-const CACHE_DIR = join(process.cwd(), '.cache');
-const CACHE_FILE = join(CACHE_DIR, 'tld-data.json');
+const CACHE_DIR = join(process.cwd(), '.cache', 'tlds');
 const CACHE_DURATION = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
 
 interface TLDInfo {
@@ -15,59 +14,99 @@ interface TLDInfo {
   detailUrl: string;
 }
 
-interface CachedData {
+interface CachedTLD {
   timestamp: number;
-  data: LookUpRecord;
+  data: LookUpEntry;
 }
 
 /**
- * Load cached data if it exists and is still valid
+ * Get the cache file path for a specific TLD
  */
-async function loadCache(): Promise<LookUpRecord | null> {
+function getCacheFilePath(tld: string): string {
+  return join(CACHE_DIR, `${tld}.json`);
+}
+
+/**
+ * Load cached data for a specific TLD if it exists and is still valid
+ */
+async function loadTLDCache(tld: string): Promise<LookUpEntry | null> {
   try {
-    if (!existsSync(CACHE_FILE)) {
+    const cacheFile = getCacheFilePath(tld);
+    if (!existsSync(cacheFile)) {
       return null;
     }
 
-    const content = await readFile(CACHE_FILE, 'utf-8');
-    const cached: CachedData = JSON.parse(content);
+    const content = await readFile(cacheFile, 'utf-8');
+    const cached: CachedTLD = JSON.parse(content);
 
     const age = Date.now() - cached.timestamp;
     if (age > CACHE_DURATION) {
-      console.log('Cache expired (older than 7 days)');
-      return null;
+      return null; // Cache expired
     }
 
-    console.log(
-      `Using cached data (${Math.round(age / (24 * 60 * 60 * 1000))} days old)`
-    );
     return cached.data;
   } catch (error) {
-    console.warn('Failed to load cache:', error);
-    return null;
+    return null; // Failed to load, will refetch
   }
 }
 
 /**
- * Save data to cache
+ * Save TLD data to cache
  */
-async function saveCache(data: LookUpRecord): Promise<void> {
+async function saveTLDCache(tld: string, data: LookUpEntry): Promise<void> {
   try {
     // Ensure cache directory exists
     if (!existsSync(CACHE_DIR)) {
       await mkdir(CACHE_DIR, { recursive: true });
     }
 
-    const cached: CachedData = {
+    const cached: CachedTLD = {
       timestamp: Date.now(),
       data,
     };
 
-    await writeFile(CACHE_FILE, JSON.stringify(cached, null, 2), 'utf-8');
-    console.log('Saved data to cache');
+    const cacheFile = getCacheFilePath(tld);
+    await writeFile(cacheFile, JSON.stringify(cached), 'utf-8');
   } catch (error) {
-    console.warn('Failed to save cache:', error);
+    // Non-fatal: just log and continue
+    console.warn(`Failed to cache ${tld}:`, error);
   }
+}
+
+/**
+ * Load all cached TLDs
+ */
+async function loadAllCachedTLDs(): Promise<{
+  cached: LookUpRecord;
+  count: number;
+}> {
+  const cached: LookUpRecord = {};
+  let count = 0;
+
+  try {
+    if (!existsSync(CACHE_DIR)) {
+      return { cached, count };
+    }
+
+    const { readdir } = await import('node:fs/promises');
+    const files = await readdir(CACHE_DIR);
+
+    for (const file of files) {
+      if (!file.endsWith('.json')) continue;
+
+      const tld = file.replace('.json', '');
+      const data = await loadTLDCache(tld);
+
+      if (data && (data.whois || data.rdap)) {
+        cached[tld] = data;
+        count++;
+      }
+    }
+  } catch (error) {
+    console.warn('Failed to load cached TLDs:', error);
+  }
+
+  return { cached, count };
 }
 
 /**
@@ -238,12 +277,17 @@ async function fetchTLDDetails(tldInfo: TLDInfo): Promise<LookUpEntry> {
 }
 
 /**
- * Process all TLDs with rate limiting
+ * Process all TLDs with rate limiting and incremental caching
  */
-async function processTLDs(tlds: TLDInfo[]): Promise<LookUpRecord> {
+async function processTLDs(
+  tlds: TLDInfo[],
+  forceRefresh: boolean
+): Promise<LookUpRecord> {
   const result: LookUpRecord = {};
   const total = tlds.length;
   let processed = 0;
+  let cachedCount = 0;
+  let fetchedCount = 0;
 
   console.log(`Processing ${total} TLDs...`);
 
@@ -254,12 +298,35 @@ async function processTLDs(tlds: TLDInfo[]): Promise<LookUpRecord> {
 
     const batchResults = await Promise.all(
       batch.map(async (tldInfo) => {
-        const details = await fetchTLDDetails(tldInfo);
+        let details: LookUpEntry;
+        let fromCache = false;
+
+        // Try to load from cache first (unless force refresh)
+        if (!forceRefresh) {
+          const cached = await loadTLDCache(tldInfo.tld);
+          if (cached) {
+            details = cached;
+            fromCache = true;
+            cachedCount++;
+          }
+        }
+
+        // Fetch if not cached or force refresh
+        if (!fromCache) {
+          details = await fetchTLDDetails(tldInfo);
+          fetchedCount++;
+
+          // Save to cache immediately after fetching
+          if (details.whois || details.rdap) {
+            await saveTLDCache(tldInfo.tld, details);
+          }
+        }
+
         processed++;
 
         if (processed % 50 === 0 || processed === total) {
           console.log(
-            `Progress: ${processed}/${total} (${Math.round((processed / total) * 100)}%)`
+            `Progress: ${processed}/${total} (${Math.round((processed / total) * 100)}%) - Cached: ${cachedCount}, Fetched: ${fetchedCount}`
           );
         }
 
@@ -281,6 +348,7 @@ async function processTLDs(tlds: TLDInfo[]): Promise<LookUpRecord> {
     }
   }
 
+  console.log(`\nCompleted: ${cachedCount} from cache, ${fetchedCount} fetched`);
   return result;
 }
 
@@ -310,29 +378,16 @@ async function main() {
 
     const forceRefresh = process.argv.includes('--force');
 
-    // Try to load from cache first
-    let lookupData: LookUpRecord | null = null;
-
-    if (!forceRefresh) {
-      lookupData = await loadCache();
-    } else {
+    if (forceRefresh) {
       console.log('Force refresh enabled. Ignoring cache.\n');
     }
 
-    if (lookupData) {
-      console.log('Using cached data. Run with --force to refresh.\n');
-    } else {
-      console.log('Fetching fresh data from IANA...\n');
+    // Fetch all TLDs from IANA
+    const tlds = await fetchTLDs();
 
-      // Fetch all TLDs
-      const tlds = await fetchTLDs();
-
-      // Process each TLD to get WHOIS/RDAP info
-      lookupData = await processTLDs(tlds);
-
-      // Save to cache for future runs
-      await saveCache(lookupData);
-    }
+    // Process each TLD (with incremental caching)
+    // This will check cache for each TLD and only fetch what's missing or expired
+    const lookupData = await processTLDs(tlds, forceRefresh);
 
     // Generate the output file
     await generateServersFile(lookupData);
