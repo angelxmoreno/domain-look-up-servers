@@ -16,6 +16,10 @@ pre-commit:
       run: npx @biomejs/biome lint --write {staged_files}
       stage_fixed: true
 
+    # TypeScript type checking
+    type-check:
+      run: npx tsc --noEmit
+
 # Commit-msg hook - validates commit message format
 commit-msg:
   commands:
@@ -30,11 +34,6 @@ pre-push:
     test:
       run: command -v bun > /dev/null && bun test || echo "Bun not found, skipping tests"
 
-    # Run Biome check on crawler and types files
+    # Run Biome check on all source files
     biome-check:
-      run: npx @biomejs/biome check src/crawler.ts src/types.ts
-
-    # Note: Full type-check disabled due to pre-existing encoding issues in servers.ts
-    # Run type-check only when servers.ts encoding is fixed
-    # type-check:
-    #   run: npx tsc --noEmit
+      run: npx @biomejs/biome check src/
