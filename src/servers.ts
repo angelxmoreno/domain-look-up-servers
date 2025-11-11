@@ -1,4762 +1,4762 @@
 import type { LookUpEntry, LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
-    aaa: {
+    'aaa': {
         whois: 'whois.nic.aaa',
         rdap: 'https://rdap.nic.aaa/'
     },
-    abb: {
+    'abb': {
         whois: 'whois.nic.abb',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    abbott: {
+    'abbott': {
         whois: 'whois.nic.abbott',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    abbvie: {
+    'abbvie': {
         rdap: 'https://rdap.nominet.uk/abbvie/'
     },
-    abc: {
+    'abc': {
         whois: 'whois.nic.abc',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    able: {
+    'able': {
         rdap: 'https://rdap.nic.able/'
     },
-    abogado: {
+    'abogado': {
         whois: 'whois.nic.abogado',
         rdap: 'https://rdap.nic.abogado/'
     },
-    abudhabi: {
+    'abudhabi': {
         whois: 'whois.nic.abudhabi',
         rdap: 'https://rdap.nic.abudhabi'
     },
-    ac: {
+    'ac': {
         whois: 'whois.nic.ac'
     },
-    academy: {
+    'academy': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    accenture: {
+    'accenture': {
         whois: 'whois.nic.accenture',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    accountant: {
+    'accountant': {
         whois: 'whois.nic.accountant',
         rdap: 'https://rdap.nic.accountant/'
     },
-    accountants: {
+    'accountants': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    aco: {
+    'aco': {
         whois: 'whois.nic.aco',
         rdap: 'https://rdap.nic.aco/'
     },
-    actor: {
+    'actor': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ad: {
+    'ad': {
         whois: 'whois.nic.ad',
         rdap: 'https://rdap.nic.ad'
     },
-    ads: {
+    'ads': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    adult: {
+    'adult': {
         whois: 'whois.nic.adult',
         rdap: 'https://rdap.nic.adult/'
     },
-    ae: {
+    'ae': {
         whois: 'whois.aeda.net.ae'
     },
-    aeg: {
+    'aeg': {
         whois: 'whois.nic.aeg',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    aetna: {
+    'aetna': {
         rdap: 'https://rdap.nic.aetna/'
     },
-    af: {
+    'af': {
         whois: 'whois.nic.af'
     },
-    afl: {
+    'afl': {
         whois: 'whois.nic.afl',
         rdap: 'https://rdap.nic.afl/'
     },
-    africa: {
+    'africa': {
         whois: 'whois.nic.africa',
         rdap: 'https://rdap.nic.africa/rdap/'
     },
-    ag: {
+    'ag': {
         whois: 'whois.nic.ag'
     },
-    agakhan: {
+    'agakhan': {
         whois: 'whois.nic.agakhan',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    agency: {
+    'agency': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ai: {
+    'ai': {
         whois: 'whois.nic.ai',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    aig: {
+    'aig': {
         rdap: 'https://rdap.nic.aig/'
     },
-    airbus: {
+    'airbus': {
         whois: 'whois.nic.airbus',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    airforce: {
+    'airforce': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    airtel: {
+    'airtel': {
         whois: 'whois.nic.airtel',
         rdap: 'https://tld-rdap.verisign.com/airtel/v1/'
     },
-    akdn: {
+    'akdn': {
         whois: 'whois.nic.akdn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    alibaba: {
+    'alibaba': {
         whois: 'whois.nic.alibaba',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    alipay: {
+    'alipay': {
         whois: 'whois.nic.alipay',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    allfinanz: {
+    'allfinanz': {
         whois: 'whois.nic.allfinanz',
         rdap: 'https://rdap.centralnic.com/allfinanz'
     },
-    allstate: {
+    'allstate': {
         whois: 'whois.nic.allstate',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    alsace: {
+    'alsace': {
         whois: 'whois.nic.alsace',
         rdap: 'https://rdap.nic.alsace'
     },
-    alstom: {
+    'alstom': {
         whois: 'whois.nic.alstom',
         rdap: 'https://rdap.nic.alstom/'
     },
-    am: {
+    'am': {
         whois: 'whois.amnic.net'
     },
-    amazon: {
+    'amazon': {
         rdap: 'https://rdap.nominet.uk/amazon/'
     },
-    americanexpress: {
+    'americanexpress': {
         rdap: 'https://rdap.nic.americanexpress/'
     },
-    americanfamily: {
+    'americanfamily': {
         whois: 'whois.nic.americanfamily',
         rdap: 'https://rdap.nic.americanfamily'
     },
-    amex: {
+    'amex': {
         rdap: 'https://rdap.nic.amex/'
     },
-    amfam: {
+    'amfam': {
         whois: 'whois.nic.amfam',
         rdap: 'https://rdap.nic.amfam'
     },
-    amica: {
+    'amica': {
         rdap: 'https://rdap.nic.amica/'
     },
-    amsterdam: {
+    'amsterdam': {
         whois: 'whois.nic.amsterdam',
         rdap: 'https://rdap.nic.amsterdam'
     },
-    analytics: {
+    'analytics': {
         rdap: 'https://rdap.nic.analytics/'
     },
-    android: {
+    'android': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    anquan: {
+    'anquan': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/'
     },
-    anz: {
+    'anz': {
         whois: 'whois.nic.anz',
         rdap: 'https://rdap.nic.anz/'
     },
-    aol: {
+    'aol': {
         whois: 'whois.nic.aol',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    apartments: {
+    'apartments': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    app: {
+    'app': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    apple: {
+    'apple': {
         rdap: 'https://rdap.nic.apple/'
     },
-    aquarelle: {
+    'aquarelle': {
         whois: 'whois.nic.aquarelle',
         rdap: 'https://rdap.nic.aquarelle'
     },
-    ar: {
+    'ar': {
         whois: 'whois.nic.ar',
         rdap: 'https://rdap.nic.ar'
     },
-    arab: {
+    'arab': {
         whois: 'whois.nic.arab',
         rdap: 'https://rdap.nic.arab/'
     },
-    aramco: {
+    'aramco': {
         rdap: 'https://rdap.nic.aramco/'
     },
-    archi: {
+    'archi': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    army: {
+    'army': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    arpa: {
+    'arpa': {
         whois: 'whois.iana.org'
     },
-    art: {
+    'art': {
         whois: 'whois.nic.art',
         rdap: 'https://rdap.centralnic.com/art'
     },
-    arte: {
+    'arte': {
         whois: 'whois.nic.arte',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    as: {
+    'as': {
         whois: 'whois.nic.as'
     },
-    asda: {
+    'asda': {
         whois: 'whois.nic.asda',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    asia: {
+    'asia': {
         whois: 'whois.nic.asia',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    associates: {
+    'associates': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    at: {
+    'at': {
         whois: 'whois.nic.at'
     },
-    athleta: {
+    'athleta': {
         rdap: 'https://rdap.nic.athleta/'
     },
-    attorney: {
+    'attorney': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    au: {
+    'au': {
         whois: 'whois.auda.org.au'
     },
-    auction: {
+    'auction': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    audi: {
+    'audi': {
         whois: 'whois.nic.audi',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    audible: {
+    'audible': {
         rdap: 'https://rdap.nominet.uk/audible/'
     },
-    audio: {
+    'audio': {
         whois: 'whois.nic.audio',
         rdap: 'https://rdap.centralnic.com/audio/'
     },
-    auspost: {
+    'auspost': {
         whois: 'whois.nic.auspost',
         rdap: 'https://rdap.nic.auspost/'
     },
-    author: {
+    'author': {
         rdap: 'https://rdap.nominet.uk/author/'
     },
-    auto: {
+    'auto': {
         whois: 'whois.nic.auto',
         rdap: 'https://rdap.centralnic.com/auto/'
     },
-    autos: {
+    'autos': {
         whois: 'whois.nic.autos',
         rdap: 'https://rdap.centralnic.com/autos/'
     },
-    aw: {
+    'aw': {
         whois: 'whois.nic.aw'
     },
-    aws: {
+    'aws': {
         rdap: 'https://rdap.nominet.uk/aws/'
     },
-    ax: {
+    'ax': {
         whois: 'whois.ax'
     },
-    axa: {
+    'axa': {
         rdap: 'https://rdap.nic.axa/'
     },
-    azure: {
+    'azure': {
         rdap: 'https://rdap.nominet.uk/azure/'
     },
-    baby: {
+    'baby': {
         whois: 'whois.nic.baby',
         rdap: 'https://rdap.centralnic.com/baby/'
     },
-    baidu: {
+    'baidu': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/baidu'
     },
-    banamex: {
+    'banamex': {
         rdap: 'https://rdap.nic.banamex/'
     },
-    band: {
+    'band': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bank: {
+    'bank': {
         whois: 'whois.nic.bank',
         rdap: 'https://rdap.nic.bank/'
     },
-    bar: {
+    'bar': {
         whois: 'whois.nic.bar',
         rdap: 'https://rdap.registry.bar/rdap/'
     },
-    barcelona: {
+    'barcelona': {
         whois: 'whois.nic.barcelona',
         rdap: 'https://rdap.nic.barcelona/'
     },
-    barclaycard: {
+    'barclaycard': {
         whois: 'whois.nic.barclaycard',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    barclays: {
+    'barclays': {
         whois: 'whois.nic.barclays',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    barefoot: {
+    'barefoot': {
         whois: 'whois.nic.barefoot',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bargains: {
+    'bargains': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    baseball: {
+    'baseball': {
         whois: 'whois.nic.baseball',
         rdap: 'https://rdap.nic.baseball/'
     },
-    basketball: {
+    'basketball': {
         whois: 'whois.nic.basketball',
         rdap: 'https://rdap.nic.basketball'
     },
-    bauhaus: {
+    'bauhaus': {
         whois: 'whois.nic.bauhaus',
         rdap: 'https://rdap.nic.bauhaus/'
     },
-    bayern: {
+    'bayern': {
         whois: 'whois.nic.bayern',
         rdap: 'https://rdap.nic.bayern/'
     },
-    bbc: {
+    'bbc': {
         whois: 'whois.nic.bbc',
         rdap: 'https://rdap.nominet.uk/bbc/'
     },
-    bbt: {
+    'bbt': {
         whois: 'whois.nic.bbt',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bbva: {
+    'bbva': {
         rdap: 'https://rdap.nominet.uk/bbva/'
     },
-    bcg: {
+    'bcg': {
         whois: 'whois.nic.bcg',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bcn: {
+    'bcn': {
         whois: 'whois.nic.bcn',
         rdap: 'https://rdap.nic.bcn/'
     },
-    be: {
+    'be': {
         whois: 'whois.dns.be'
     },
-    beats: {
+    'beats': {
         whois: 'whois.nic.beats',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    beauty: {
+    'beauty': {
         whois: 'whois.nic.beauty',
         rdap: 'https://rdap.centralnic.com/beauty/'
     },
-    beer: {
+    'beer': {
         whois: 'whois.nic.beer',
         rdap: 'https://rdap.nic.beer/'
     },
-    berlin: {
+    'berlin': {
         whois: 'whois.nic.berlin',
         rdap: 'https://rdap.nic.berlin/v1/'
     },
-    best: {
+    'best': {
         whois: 'whois.nic.best',
         rdap: 'https://rdap.centralnic.com/best/'
     },
-    bestbuy: {
+    'bestbuy': {
         whois: 'whois.nic.bestbuy',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bet: {
+    'bet': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bf: {
+    'bf': {
         whois: 'whois.registre.bf'
     },
-    bg: {
+    'bg': {
         whois: 'whois.register.bg'
     },
-    bh: {
+    'bh': {
         whois: 'whois.nic.bh'
     },
-    bharti: {
+    'bharti': {
         rdap: 'https://tld-rdap.verisign.com/bharti/v1/'
     },
-    bi: {
+    'bi': {
         whois: 'whois1.nic.bi'
     },
-    bible: {
+    'bible': {
         whois: 'whois.nic.bible',
         rdap: 'https://rdap.nic.bible/'
     },
-    bid: {
+    'bid': {
         whois: 'whois.nic.bid',
         rdap: 'https://rdap.nic.bid/'
     },
-    bike: {
+    'bike': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bing: {
+    'bing': {
         rdap: 'https://rdap.nominet.uk/bing/'
     },
-    bingo: {
+    'bingo': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bio: {
+    'bio': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    biz: {
+    'biz': {
         whois: 'whois.nic.biz',
         rdap: 'https://rdap.nic.biz/'
     },
-    bj: {
+    'bj': {
         whois: 'whois.nic.bj'
     },
-    black: {
+    'black': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    blackfriday: {
+    'blackfriday': {
         whois: 'whois.nic.blackfriday',
         rdap: 'https://rdap.nic.blackfriday/'
     },
-    blockbuster: {
+    'blockbuster': {
         whois: 'whois.nic.blockbuster',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    blog: {
+    'blog': {
         whois: 'whois.nic.blog',
         rdap: 'https://rdap.blog.fury.ca/rdap/'
     },
-    bloomberg: {
+    'bloomberg': {
         whois: 'whois.nic.bloomberg',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    blue: {
+    'blue': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bm: {
+    'bm': {
         whois: 'whois.nic.bm',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bms: {
+    'bms': {
         whois: 'whois.nic.bms',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bmw: {
+    'bmw': {
         whois: 'whois.nic.bmw',
         rdap: 'https://rdap.centralnic.com/bmw'
     },
-    bn: {
+    'bn': {
         whois: 'whois.bnnic.bn'
     },
-    bnpparibas: {
+    'bnpparibas': {
         whois: 'whois.nic.bnpparibas',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bo: {
+    'bo': {
         whois: 'whois.nic.bo'
     },
-    boats: {
+    'boats': {
         whois: 'whois.nic.boats',
         rdap: 'https://rdap.centralnic.com/boats/'
     },
-    boehringer: {
+    'boehringer': {
         whois: 'whois.nic.boehringer',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bofa: {
+    'bofa': {
         whois: 'whois.nic.bofa',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bom: {
+    'bom': {
         rdap: 'https://rdap.gtlds.nic.br/'
     },
-    bond: {
+    'bond': {
         whois: 'whois.nic.bond',
         rdap: 'https://rdap.centralnic.com/bond'
     },
-    boo: {
+    'boo': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    book: {
+    'book': {
         rdap: 'https://rdap.nominet.uk/book/'
     },
-    booking: {
+    'booking': {
         rdap: 'https://rdap.nic.booking/'
     },
-    bosch: {
+    'bosch': {
         whois: 'whois.nic.bosch',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bostik: {
+    'bostik': {
         whois: 'whois.nic.bostik',
         rdap: 'https://rdap.nic.bostik'
     },
-    boston: {
+    'boston': {
         whois: 'whois.nic.boston',
         rdap: 'https://rdap.nic.boston/'
     },
-    bot: {
+    'bot': {
         rdap: 'https://rdap.nominet.uk/bot/'
     },
-    boutique: {
+    'boutique': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    box: {
+    'box': {
         whois: 'whois.nic.box',
         rdap: 'https://rdap.centralnic.com/box/'
     },
-    br: {
+    'br': {
         whois: 'whois.registro.br',
         rdap: 'https://rdap.registro.br/'
     },
-    bradesco: {
+    'bradesco': {
         whois: 'whois.nic.bradesco',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    bridgestone: {
+    'bridgestone': {
         whois: 'whois.nic.bridgestone',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    broadway: {
+    'broadway': {
         rdap: 'https://rdap.nominet.uk/broadway/'
     },
-    broker: {
+    'broker': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    brother: {
+    'brother': {
         whois: 'whois.nic.brother',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    brussels: {
+    'brussels': {
         rdap: 'https://rdap.nic.brussels'
     },
-    build: {
+    'build': {
         whois: 'whois.nic.build',
         rdap: 'https://rdap.centralnic.com/build/'
     },
-    builders: {
+    'builders': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    business: {
+    'business': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    buy: {
+    'buy': {
         rdap: 'https://rdap.nominet.uk/buy/'
     },
-    buzz: {
+    'buzz': {
         whois: 'whois.nic.buzz',
         rdap: 'https://rdap.nic.buzz/'
     },
-    bw: {
+    'bw': {
         whois: 'whois.nic.net.bw'
     },
-    by: {
+    'by': {
         whois: 'whois.cctld.by'
     },
-    bzh: {
+    'bzh': {
         whois: 'whois.nic.bzh',
         rdap: 'https://rdap.nic.bzh'
     },
-    ca: {
+    'ca': {
         whois: 'whois.cira.ca',
         rdap: 'https://rdap.ca.fury.ca/rdap/'
     },
-    cab: {
+    'cab': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cafe: {
+    'cafe': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cal: {
+    'cal': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    call: {
+    'call': {
         rdap: 'https://rdap.nominet.uk/call/'
     },
-    calvinklein: {
+    'calvinklein': {
         rdap: 'https://rdap.nic.calvinklein/'
     },
-    cam: {
+    'cam': {
         whois: 'whois.nic.cam',
         rdap: 'https://rdap.centralnic.com/cam/'
     },
-    camera: {
+    'camera': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    camp: {
+    'camp': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    canon: {
+    'canon': {
         whois: 'whois.nic.canon',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    capetown: {
+    'capetown': {
         whois: 'whois.nic.capetown',
         rdap: 'https://rdap.nic.capetown/rdap/'
     },
-    capital: {
+    'capital': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    capitalone: {
+    'capitalone': {
         whois: 'whois.nic.capitalone',
         rdap: 'https://rdap.nic.capitalone'
     },
-    car: {
+    'car': {
         whois: 'whois.nic.car',
         rdap: 'https://rdap.centralnic.com/car/'
     },
-    caravan: {
+    'caravan': {
         rdap: 'https://rdap.nic.caravan/'
     },
-    cards: {
+    'cards': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    care: {
+    'care': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    career: {
+    'career': {
         rdap: 'https://rdap.nominet.uk/career/'
     },
-    careers: {
+    'careers': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cars: {
+    'cars': {
         whois: 'whois.nic.cars',
         rdap: 'https://rdap.centralnic.com/cars/'
     },
-    casa: {
+    'casa': {
         whois: 'whois.nic.casa',
         rdap: 'https://rdap.nic.casa/'
     },
-    case: {
+    'case': {
         whois: 'whois.nic.case',
         rdap: 'https://rdap.centralnic.com/case/'
     },
-    cash: {
+    'cash': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    casino: {
+    'casino': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cat: {
+    'cat': {
         whois: 'whois.nic.cat',
         rdap: 'https://rdap.nic.cat/'
     },
-    catering: {
+    'catering': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    catholic: {
+    'catholic': {
         whois: 'whois.nic.catholic',
         rdap: 'https://rdap.nic.catholic/'
     },
-    cba: {
+    'cba': {
         whois: 'whois.nic.cba',
         rdap: 'https://rdap.nic.cba/'
     },
-    cbn: {
+    'cbn': {
         rdap: 'https://rdap.nic.cbn/'
     },
-    cbre: {
+    'cbre': {
         rdap: 'https://rdap.nic.cbre/'
     },
-    cc: {
+    'cc': {
         whois: 'ccwhois.verisign-grs.com',
         rdap: 'https://tld-rdap.verisign.com/cc/v1/'
     },
-    center: {
+    'center': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ceo: {
+    'ceo': {
         whois: 'whois.nic.ceo',
         rdap: 'https://rdap.centralnic.com/ceo/'
     },
-    cern: {
+    'cern': {
         whois: 'whois.nic.cern',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cf: {
+    'cf': {
         whois: 'whois.dot.cf'
     },
-    cfa: {
+    'cfa': {
         whois: 'whois.nic.cfa',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cfd: {
+    'cfd': {
         whois: 'whois.nic.cfd',
         rdap: 'https://rdap.centralnic.com/cfd/'
     },
-    ch: {
+    'ch': {
         whois: 'whois.nic.ch'
     },
-    chanel: {
+    'chanel': {
         whois: 'whois.nic.chanel',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    channel: {
+    'channel': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    charity: {
+    'charity': {
         whois: 'whois.nic.charity',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    chase: {
+    'chase': {
         rdap: 'https://rdap.nic.chase/'
     },
-    chat: {
+    'chat': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cheap: {
+    'cheap': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    chintai: {
+    'chintai': {
         whois: 'whois.nic.chintai',
         rdap: 'https://rdap.nic.chintai/'
     },
-    christmas: {
+    'christmas': {
         whois: 'whois.nic.christmas',
         rdap: 'https://rdap.centralnic.com/christmas/'
     },
-    chrome: {
+    'chrome': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    church: {
+    'church': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ci: {
+    'ci': {
         whois: 'whois.nic.ci'
     },
-    cipriani: {
+    'cipriani': {
         whois: 'whois.nic.cipriani',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    circle: {
+    'circle': {
         rdap: 'https://rdap.nominet.uk/circle/'
     },
-    cisco: {
+    'cisco': {
         rdap: 'https://rdap.nic.cisco/'
     },
-    citadel: {
+    'citadel': {
         whois: 'whois.nic.citadel',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    citi: {
+    'citi': {
         rdap: 'https://rdap.nic.citi/'
     },
-    citic: {
+    'citic': {
         rdap: 'https://rdap.zdnsgtld.com/citic'
     },
-    city: {
+    'city': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cl: {
+    'cl': {
         whois: 'whois.nic.cl'
     },
-    claims: {
+    'claims': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cleaning: {
+    'cleaning': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    click: {
+    'click': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    clinique: {
+    'clinique': {
         whois: 'whois.nic.clinique',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    clothing: {
+    'clothing': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cloud: {
+    'cloud': {
         whois: 'whois.nic.cloud',
         rdap: 'https://rdap.registry.cloud/rdap/'
     },
-    club: {
+    'club': {
         whois: 'whois.nic.club',
         rdap: 'https://rdap.nic.club/'
     },
-    cm: {
+    'cm': {
         whois: 'whois.nic.cm',
         rdap: 'https://rdap.nic.cm/'
     },
-    cn: {
+    'cn': {
         whois: 'whois.cnnic.cn'
     },
-    co: {
+    'co': {
         whois: 'whois.registry.co'
     },
-    coach: {
+    'coach': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    codes: {
+    'codes': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    coffee: {
+    'coffee': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    college: {
+    'college': {
         whois: 'whois.nic.college',
         rdap: 'https://rdap.centralnic.com/college'
     },
-    cologne: {
+    'cologne': {
         whois: 'whois.ryce-rsp.com',
         rdap: 'https://rdap.ryce-rsp.com/rdap/'
     },
-    com: {
+    'com': {
         whois: 'whois.verisign-grs.com',
         rdap: 'https://rdap.verisign.com/com/v1/'
     },
-    commbank: {
+    'commbank': {
         whois: 'whois.nic.commbank',
         rdap: 'https://rdap.nic.commbank/'
     },
-    community: {
+    'community': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    company: {
+    'company': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    compare: {
+    'compare': {
         whois: 'whois.nic.compare',
         rdap: 'https://rdap.nic.compare/'
     },
-    computer: {
+    'computer': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    comsec: {
+    'comsec': {
         whois: 'whois.nic.comsec',
         rdap: 'https://tld-rdap.verisign.com/comsec/v1/'
     },
-    condos: {
+    'condos': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    construction: {
+    'construction': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    consulting: {
+    'consulting': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    contact: {
+    'contact': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    contractors: {
+    'contractors': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cooking: {
+    'cooking': {
         whois: 'whois.nic.cooking',
         rdap: 'https://rdap.nic.cooking/'
     },
-    cool: {
+    'cool': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    coop: {
+    'coop': {
         whois: 'whois.nic.coop',
         rdap: 'https://rdap.registry.coop/rdap/'
     },
-    corsica: {
+    'corsica': {
         whois: 'whois.nic.corsica',
         rdap: 'https://rdap.nic.corsica'
     },
-    country: {
+    'country': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    coupon: {
+    'coupon': {
         whois: 'whois.nic.coupon',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    coupons: {
+    'coupons': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    courses: {
+    'courses': {
         whois: 'whois.nic.courses',
         rdap: 'https://rdap.nic.courses/'
     },
-    cpa: {
+    'cpa': {
         whois: 'whois.nic.cpa',
         rdap: 'https://rdap.nic.cpa'
     },
-    cr: {
+    'cr': {
         whois: 'whois.nic.cr',
         rdap: 'https://rdap.nic.cr/'
     },
-    credit: {
+    'credit': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    creditcard: {
+    'creditcard': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    creditunion: {
+    'creditunion': {
         whois: 'whois.nic.creditunion',
         rdap: 'https://rdap.registry.coop/rdap/'
     },
-    cricket: {
+    'cricket': {
         whois: 'whois.nic.cricket',
         rdap: 'https://rdap.nic.cricket/'
     },
-    crown: {
+    'crown': {
         whois: 'whois.nic.crown',
         rdap: 'https://rdap.crown.fury.ca/rdap/'
     },
-    crs: {
+    'crs': {
         whois: 'whois.nic.crs',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cruise: {
+    'cruise': {
         whois: 'whois.nic.cruise',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cruises: {
+    'cruises': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    cuisinella: {
+    'cuisinella': {
         whois: 'whois.nic.cuisinella',
         rdap: 'https://rdap.nic.cuisinella/'
     },
-    cv: {
+    'cv': {
         whois: 'whois.nic.cv',
         rdap: 'https://rdap.nic.cv'
     },
-    cx: {
+    'cx': {
         whois: 'whois.nic.cx',
         rdap: 'https://rdap.nic.cx'
     },
-    cymru: {
+    'cymru': {
         rdap: 'https://rdap.nominet.uk/cymru/'
     },
-    cyou: {
+    'cyou': {
         whois: 'whois.nic.cyou',
         rdap: 'https://rdap.centralnic.com/cyou/'
     },
-    cz: {
+    'cz': {
         whois: 'whois.nic.cz',
         rdap: 'https://rdap.nic.cz'
     },
-    dad: {
+    'dad': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    dance: {
+    'dance': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    data: {
+    'data': {
         whois: 'whois.nic.data',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    date: {
+    'date': {
         whois: 'whois.nic.date',
         rdap: 'https://rdap.nic.date/'
     },
-    dating: {
+    'dating': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    datsun: {
+    'datsun': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    day: {
+    'day': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    dclk: {
+    'dclk': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    dds: {
+    'dds': {
         whois: 'whois.nic.dds',
         rdap: 'https://rdap.nic.dds/'
     },
-    de: {
+    'de': {
         whois: 'whois.denic.de'
     },
-    deal: {
+    'deal': {
         rdap: 'https://rdap.nominet.uk/deal/'
     },
-    dealer: {
+    'dealer': {
         whois: 'whois.nic.dealer',
         rdap: 'https://rdap.centralnic.com/dealer/'
     },
-    deals: {
+    'deals': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    degree: {
+    'degree': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    delivery: {
+    'delivery': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dell: {
+    'dell': {
         rdap: 'https://rdap.nic.dell/'
     },
-    deloitte: {
+    'deloitte': {
         whois: 'whois.nic.deloitte',
         rdap: 'https://rdap.centralnic.com/deloitte'
     },
-    delta: {
+    'delta': {
         whois: 'whois.nic.delta',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    democrat: {
+    'democrat': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dental: {
+    'dental': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dentist: {
+    'dentist': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    desi: {
+    'desi': {
         rdap: 'https://rdap.nominet.uk/desi/'
     },
-    design: {
+    'design': {
         whois: 'whois.nic.design',
         rdap: 'https://rdap.nic.design/'
     },
-    dev: {
+    'dev': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    dhl: {
+    'dhl': {
         rdap: 'https://rdap.centralnic.com/dhl'
     },
-    diamonds: {
+    'diamonds': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    digital: {
+    'digital': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    direct: {
+    'direct': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    directory: {
+    'directory': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    discount: {
+    'discount': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    discover: {
+    'discover': {
         whois: 'whois.nic.discover',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dish: {
+    'dish': {
         whois: 'whois.nic.dish',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    diy: {
+    'diy': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    dk: {
+    'dk': {
         whois: 'whois.punktum.dk'
     },
-    dm: {
+    'dm': {
         whois: 'whois.dmdomains.dm'
     },
-    dnp: {
+    'dnp': {
         whois: 'whois.nic.dnp',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    do: {
+    'do': {
         whois: 'whois.nic.do'
     },
-    docs: {
+    'docs': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    doctor: {
+    'doctor': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dog: {
+    'dog': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    domains: {
+    'domains': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    dot: {
+    'dot': {
         whois: 'whois.nic.dot',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    download: {
+    'download': {
         whois: 'whois.nic.download',
         rdap: 'https://rdap.nic.download/'
     },
-    drive: {
+    'drive': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    dtv: {
+    'dtv': {
         whois: 'whois.nic.dtv',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    dubai: {
+    'dubai': {
         whois: 'whois.nic.dubai',
         rdap: 'https://rdap.nic.dubai/'
     },
-    dupont: {
+    'dupont': {
         rdap: 'https://rdap.nic.dupont/'
     },
-    durban: {
+    'durban': {
         whois: 'whois.nic.durban',
         rdap: 'https://rdap.nic.durban/rdap/'
     },
-    dvag: {
+    'dvag': {
         whois: 'whois.nic.dvag',
         rdap: 'https://rdap.centralnic.com/dvag'
     },
-    dvr: {
+    'dvr': {
         whois: 'whois.nic.dvr',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    dz: {
+    'dz': {
         whois: 'whois.nic.dz'
     },
-    earth: {
+    'earth': {
         whois: 'whois.nic.earth',
         rdap: 'https://rdap.nic.earth/'
     },
-    eat: {
+    'eat': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    ec: {
+    'ec': {
         whois: 'whois.nic.ec',
         rdap: 'https://rdap.registry.ec'
     },
-    eco: {
+    'eco': {
         whois: 'whois.nic.eco',
         rdap: 'https://rdap.eco.fury.ca/rdap/'
     },
-    edeka: {
+    'edeka': {
         whois: 'whois.nic.edeka',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    edu: {
+    'edu': {
         whois: 'whois.educause.edu'
     },
-    education: {
+    'education': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ee: {
+    'ee': {
         whois: 'whois.tld.ee'
     },
-    email: {
+    'email': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    emerck: {
+    'emerck': {
         whois: 'whois.nic.emerck',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    energy: {
+    'energy': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    engineer: {
+    'engineer': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    engineering: {
+    'engineering': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    enterprises: {
+    'enterprises': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    equipment: {
+    'equipment': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ericsson: {
+    'ericsson': {
         whois: 'whois.nic.ericsson',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    erni: {
+    'erni': {
         whois: 'whois.nic.erni',
         rdap: 'https://rdap.nic.erni/'
     },
-    es: {
+    'es': {
         whois: 'whois.nic.es'
     },
-    esq: {
+    'esq': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    estate: {
+    'estate': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    eu: {
+    'eu': {
         whois: 'whois.eu'
     },
-    eurovision: {
+    'eurovision': {
         whois: 'whois.nic.eurovision',
         rdap: 'https://rdap.nic.eurovision/'
     },
-    eus: {
+    'eus': {
         whois: 'whois.nic.eus',
         rdap: 'https://rdap.nic.eus/'
     },
-    events: {
+    'events': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    exchange: {
+    'exchange': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    expert: {
+    'expert': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    exposed: {
+    'exposed': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    express: {
+    'express': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    extraspace: {
+    'extraspace': {
         whois: 'whois.nic.extraspace',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fage: {
+    'fage': {
         whois: 'whois.nic.fage',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fail: {
+    'fail': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fairwinds: {
+    'fairwinds': {
         rdap: 'https://rdap.nominet.uk/fairwinds/'
     },
-    faith: {
+    'faith': {
         whois: 'whois.nic.faith',
         rdap: 'https://rdap.nic.faith/'
     },
-    family: {
+    'family': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fan: {
+    'fan': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fans: {
+    'fans': {
         whois: 'whois.nic.fans',
         rdap: 'https://rdap.centralnic.com/fans'
     },
-    farm: {
+    'farm': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    farmers: {
+    'farmers': {
         rdap: 'https://rdap.nic.farmers/'
     },
-    fashion: {
+    'fashion': {
         whois: 'whois.nic.fashion',
         rdap: 'https://rdap.nic.fashion/'
     },
-    fast: {
+    'fast': {
         rdap: 'https://rdap.nominet.uk/fast/'
     },
-    fedex: {
+    'fedex': {
         whois: 'whois.nic.fedex',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    feedback: {
+    'feedback': {
         whois: 'whois.registry.click',
         rdap: 'https://rdap.registry.click/rdap/'
     },
-    ferrari: {
+    'ferrari': {
         whois: 'whois.nic.ferrari',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ferrero: {
+    'ferrero': {
         rdap: 'https://rdap.nic.ferrero/'
     },
-    fi: {
+    'fi': {
         whois: 'whois.fi',
         rdap: 'https://rdap.fi/rdap/rdap/'
     },
-    fidelity: {
+    'fidelity': {
         whois: 'whois.nic.fidelity',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    film: {
+    'film': {
         whois: 'whois.nic.film',
         rdap: 'https://rdap.nic.film/'
     },
-    final: {
+    'final': {
         rdap: 'https://rdap.gtlds.nic.br/'
     },
-    finance: {
+    'finance': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    financial: {
+    'financial': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fire: {
+    'fire': {
         rdap: 'https://rdap.nominet.uk/fire/'
     },
-    firestone: {
+    'firestone': {
         whois: 'whois.nic.firestone',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    firmdale: {
+    'firmdale': {
         whois: 'whois.nic.firmdale',
         rdap: 'https://rdap.nic.firmdale/'
     },
-    fish: {
+    'fish': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fishing: {
+    'fishing': {
         whois: 'whois.nic.fishing',
         rdap: 'https://rdap.nic.fishing/'
     },
-    fit: {
+    'fit': {
         whois: 'whois.nic.fit',
         rdap: 'https://rdap.nic.fit/'
     },
-    fitness: {
+    'fitness': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fj: {
+    'fj': {
         whois: 'www.whois.fj',
         rdap: 'https://www.rdap.fj'
     },
-    flickr: {
+    'flickr': {
         rdap: 'https://rdap.nic.flickr/'
     },
-    flights: {
+    'flights': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    flir: {
+    'flir': {
         rdap: 'https://rdap.nic.flir/'
     },
-    florist: {
+    'florist': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    flowers: {
+    'flowers': {
         whois: 'whois.nic.flowers',
         rdap: 'https://rdap.centralnic.com/flowers/'
     },
-    fly: {
+    'fly': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    fm: {
+    'fm': {
         whois: 'whois.nic.fm',
         rdap: 'https://rdap.centralnic.com/fm/'
     },
-    fo: {
+    'fo': {
         whois: 'whois.nic.fo',
         rdap: 'https://rdap.centralnic.com/fo'
     },
-    foo: {
+    'foo': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    food: {
+    'food': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    football: {
+    'football': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ford: {
+    'ford': {
         rdap: 'https://rdap.nic.ford/'
     },
-    forex: {
+    'forex': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    forsale: {
+    'forsale': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    forum: {
+    'forum': {
         whois: 'whois.registry.click',
         rdap: 'https://rdap.registry.click/rdap/'
     },
-    foundation: {
+    'foundation': {
         whois: 'whois.nic.foundation',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    fox: {
+    'fox': {
         whois: 'whois.nic.fox',
         rdap: 'https://rdap.nic.fox/'
     },
-    fr: {
+    'fr': {
         whois: 'whois.nic.fr',
         rdap: 'https://rdap.nic.fr/'
     },
-    free: {
+    'free': {
         rdap: 'https://rdap.nominet.uk/free/'
     },
-    fresenius: {
+    'fresenius': {
         whois: 'whois.nic.fresenius',
         rdap: 'https://rdap.centralnic.com/fresenius'
     },
-    frl: {
+    'frl': {
         whois: 'whois.nic.frl',
         rdap: 'https://rdap.centralnic.com/frl'
     },
-    frogans: {
+    'frogans': {
         whois: 'whois.nic.frogans',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    frontier: {
+    'frontier': {
         rdap: 'https://rdap.nic.frontier/'
     },
-    ftr: {
+    'ftr': {
         rdap: 'https://rdap.nic.ftr/'
     },
-    fujitsu: {
+    'fujitsu': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    fun: {
+    'fun': {
         whois: 'whois.nic.fun',
         rdap: 'https://rdap.centralnic.com/fun'
     },
-    fund: {
+    'fund': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    furniture: {
+    'furniture': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    futbol: {
+    'futbol': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    fyi: {
+    'fyi': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gal: {
+    'gal': {
         whois: 'whois.nic.gal',
         rdap: 'https://rdap.nic.gal/'
     },
-    gallery: {
+    'gallery': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gallo: {
+    'gallo': {
         whois: 'whois.nic.gallo',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gallup: {
+    'gallup': {
         whois: 'whois.nic.gallup',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    game: {
+    'game': {
         whois: 'whois.nic.game',
         rdap: 'https://rdap.centralnic.com/game/'
     },
-    games: {
+    'games': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gap: {
+    'gap': {
         rdap: 'https://rdap.nic.gap/'
     },
-    garden: {
+    'garden': {
         whois: 'whois.nic.garden',
         rdap: 'https://rdap.nic.garden/'
     },
-    gay: {
+    'gay': {
         whois: 'whois.nic.gay',
         rdap: 'https://rdap.nic.gay/'
     },
-    gbiz: {
+    'gbiz': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    gd: {
+    'gd': {
         whois: 'whois.nic.gd',
         rdap: 'https://rdap.centralnic.com/gd'
     },
-    gdn: {
+    'gdn': {
         whois: 'whois.nic.gdn',
         rdap: 'https://rdap.nic.gdn/'
     },
-    ge: {
+    'ge': {
         whois: 'whois.nic.ge'
     },
-    gea: {
+    'gea': {
         whois: 'whois.nic.gea',
         rdap: 'https://rdap.nic.gea/'
     },
-    gent: {
+    'gent': {
         whois: 'whois.nic.gent',
         rdap: 'https://rdap.centralnic.com/gent'
     },
-    genting: {
+    'genting': {
         whois: 'whois.nic.genting',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    george: {
+    'george': {
         whois: 'whois.nic.george',
         rdap: 'https://rdap.nic.george'
     },
-    gf: {
+    'gf': {
         whois: 'whois.mediaserv.net'
     },
-    gg: {
+    'gg': {
         whois: 'whois.gg'
     },
-    ggee: {
+    'ggee': {
         whois: 'whois.nic.ggee',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    gh: {
+    'gh': {
         whois: 'whois.nic.gh'
     },
-    gi: {
+    'gi': {
         whois: 'whois.identitydigital.services'
     },
-    gift: {
+    'gift': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    gifts: {
+    'gifts': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gives: {
+    'gives': {
         whois: 'whois.nic.gives',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    giving: {
+    'giving': {
         whois: 'whois.nic.giving',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    gl: {
+    'gl': {
         whois: 'whois.nic.gl'
     },
-    glass: {
+    'glass': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gle: {
+    'gle': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    global: {
+    'global': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    globo: {
+    'globo': {
         rdap: 'https://rdap.gtlds.nic.br/'
     },
-    gmail: {
+    'gmail': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    gmbh: {
+    'gmbh': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gmo: {
+    'gmo': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    gmx: {
+    'gmx': {
         whois: 'whois.nic.gmx',
         rdap: 'https://rdap.nic.gmx/'
     },
-    gn: {
+    'gn': {
         whois: 'whois.ande.gov.gn'
     },
-    godaddy: {
+    'godaddy': {
         whois: 'whois.nic.godaddy',
         rdap: 'https://rdap.nic.godaddy/'
     },
-    gold: {
+    'gold': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    goldpoint: {
+    'goldpoint': {
         whois: 'whois.nic.goldpoint',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    golf: {
+    'golf': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    goo: {
+    'goo': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    goodyear: {
+    'goodyear': {
         whois: 'whois.nic.goodyear',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    goog: {
+    'goog': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    google: {
+    'google': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    gop: {
+    'gop': {
         whois: 'whois.nic.gop',
         rdap: 'https://rdap.nominet.uk/gop/'
     },
-    got: {
+    'got': {
         rdap: 'https://rdap.nominet.uk/got/'
     },
-    gov: {
+    'gov': {
         whois: 'whois.nic.gov'
     },
-    gp: {
+    'gp': {
         whois: 'whois.nic.gp'
     },
-    gq: {
+    'gq': {
         whois: 'whois.dominio.gq'
     },
-    grainger: {
+    'grainger': {
         rdap: 'https://rdap.nic.grainger/'
     },
-    graphics: {
+    'graphics': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gratis: {
+    'gratis': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    green: {
+    'green': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gripe: {
+    'gripe': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    grocery: {
+    'grocery': {
         whois: 'whois.nic.grocery',
         rdap: 'https://rdap.nic.grocery'
     },
-    group: {
+    'group': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gs: {
+    'gs': {
         whois: 'whois.nic.gs',
         rdap: 'https://rdap.nic.gs'
     },
-    gucci: {
+    'gucci': {
         rdap: 'https://rdap.nominet.uk/gucci/'
     },
-    guge: {
+    'guge': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    guide: {
+    'guide': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    guitars: {
+    'guitars': {
         whois: 'whois.nic.guitars',
         rdap: 'https://rdap.centralnic.com/guitars/'
     },
-    guru: {
+    'guru': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    gy: {
+    'gy': {
         whois: 'whois.registry.gy',
         rdap: 'https://rdap.registry.gy'
     },
-    hair: {
+    'hair': {
         whois: 'whois.nic.hair',
         rdap: 'https://rdap.centralnic.com/hair/'
     },
-    hamburg: {
+    'hamburg': {
         whois: 'whois.nic.hamburg',
         rdap: 'https://rdap.nic.hamburg/v1/'
     },
-    hangout: {
+    'hangout': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    haus: {
+    'haus': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    hbo: {
+    'hbo': {
         rdap: 'https://rdap.nic.hbo/'
     },
-    hdfc: {
+    'hdfc': {
         whois: 'whois.nic.hdfc',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    hdfcbank: {
+    'hdfcbank': {
         whois: 'whois.nic.hdfcbank',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    health: {
+    'health': {
         rdap: 'https://rdap.nic.health/'
     },
-    healthcare: {
+    'healthcare': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    help: {
+    'help': {
         whois: 'whois.nic.help',
         rdap: 'https://rdap.centralnic.com/help/'
     },
-    helsinki: {
+    'helsinki': {
         whois: 'whois.nic.helsinki',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    here: {
+    'here': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    hermes: {
+    'hermes': {
         whois: 'whois.nic.hermes',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    hiphop: {
+    'hiphop': {
         whois: 'whois.nic.hiphop',
         rdap: 'https://rdap.registry.hiphop/rdap/'
     },
-    hisamitsu: {
+    'hisamitsu': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    hitachi: {
+    'hitachi': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    hiv: {
+    'hiv': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    hk: {
+    'hk': {
         whois: 'whois.hkirc.hk'
     },
-    hkt: {
+    'hkt': {
         whois: 'whois.nic.hkt',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    hm: {
+    'hm': {
         whois: 'whois.registry.hm'
     },
-    hn: {
+    'hn': {
         whois: 'whois.nic.hn',
         rdap: 'https://rdap.nic.hn/'
     },
-    hockey: {
+    'hockey': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    holdings: {
+    'holdings': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    holiday: {
+    'holiday': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    homedepot: {
+    'homedepot': {
         whois: 'whois.nic.homedepot',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    homegoods: {
+    'homegoods': {
         rdap: 'https://rdap.nic.homegoods/'
     },
-    homes: {
+    'homes': {
         whois: 'whois.nic.homes',
         rdap: 'https://rdap.centralnic.com/homes/'
     },
-    homesense: {
+    'homesense': {
         rdap: 'https://rdap.nic.homesense/'
     },
-    honda: {
+    'honda': {
         whois: 'whois.nic.honda',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    horse: {
+    'horse': {
         whois: 'whois.nic.horse',
         rdap: 'https://rdap.nic.horse/'
     },
-    hospital: {
+    'hospital': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    host: {
+    'host': {
         whois: 'whois.nic.host',
         rdap: 'https://rdap.centralnic.com/host'
     },
-    hosting: {
+    'hosting': {
         whois: 'whois.nic.hosting',
         rdap: 'https://rdap.centralnic.com/hosting/'
     },
-    hot: {
+    'hot': {
         rdap: 'https://rdap.nominet.uk/hot/'
     },
-    hotels: {
+    'hotels': {
         whois: 'whois.nic.hotels',
         rdap: 'https://rdap.nic.hotels/'
     },
-    hotmail: {
+    'hotmail': {
         rdap: 'https://rdap.nominet.uk/hotmail/'
     },
-    house: {
+    'house': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    how: {
+    'how': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    hr: {
+    'hr': {
         whois: 'whois.dns.hr'
     },
-    hsbc: {
+    'hsbc': {
         rdap: 'https://rdap.nic.hsbc/'
     },
-    ht: {
+    'ht': {
         whois: 'whois.nic.ht',
         rdap: 'https://rdap.nic.ht/'
     },
-    hu: {
+    'hu': {
         whois: 'whois.nic.hu'
     },
-    hughes: {
+    'hughes': {
         whois: 'whois.nic.hughes',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    hyatt: {
+    'hyatt': {
         rdap: 'https://rdap.nic.hyatt/'
     },
-    hyundai: {
+    'hyundai': {
         whois: 'whois.nic.hyundai',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    ibm: {
+    'ibm': {
         whois: 'whois.nic.ibm',
         rdap: 'https://rdap.nic.ibm/'
     },
-    icbc: {
+    'icbc': {
         whois: 'whois.nic.icbc',
         rdap: 'https://rdap.zdnsgtld.com/icbc/'
     },
-    ice: {
+    'ice': {
         whois: 'whois.nic.ice',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    icu: {
+    'icu': {
         whois: 'whois.nic.icu',
         rdap: 'https://rdap.centralnic.com/icu'
     },
-    id: {
+    'id': {
         whois: 'whois.id',
         rdap: 'https://rdap.pandi.id/rdap/'
     },
-    ie: {
+    'ie': {
         whois: 'whois.weare.ie'
     },
-    ieee: {
+    'ieee': {
         rdap: 'https://rdap.nominet.uk/ieee/'
     },
-    ifm: {
+    'ifm': {
         whois: 'whois.nic.ifm',
         rdap: 'https://rdap.nic.ifm'
     },
-    ikano: {
+    'ikano': {
         whois: 'whois.nic.ikano',
         rdap: 'https://rdap.nic.ikano/v1/'
     },
-    il: {
+    'il': {
         whois: 'whois.isoc.org.il'
     },
-    im: {
+    'im': {
         whois: 'whois.nic.im'
     },
-    imamat: {
+    'imamat': {
         whois: 'whois.nic.imamat',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    imdb: {
+    'imdb': {
         rdap: 'https://rdap.nominet.uk/imdb/'
     },
-    immo: {
+    'immo': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    immobilien: {
+    'immobilien': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    in: {
+    'in': {
         whois: 'whois.nixiregistry.in',
         rdap: 'https://rdap.nixiregistry.in/rdap/'
     },
-    inc: {
+    'inc': {
         whois: 'whois.nic.inc',
         rdap: 'https://rdap.centralnic.com/inc/'
     },
-    industries: {
+    'industries': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    infiniti: {
+    'infiniti': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    info: {
+    'info': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ing: {
+    'ing': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    ink: {
+    'ink': {
         whois: 'whois.nic.ink',
         rdap: 'https://rdap.nic.ink/'
     },
-    institute: {
+    'institute': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    insurance: {
+    'insurance': {
         whois: 'whois.nic.insurance',
         rdap: 'https://rdap.nic.insurance/'
     },
-    insure: {
+    'insure': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    int: {
+    'int': {
         whois: 'whois.iana.org',
         rdap: 'https://rdap.iana.org/'
     },
-    international: {
+    'international': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    intuit: {
+    'intuit': {
         rdap: 'https://rdap.nic.intuit/'
     },
-    investments: {
+    'investments': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    io: {
+    'io': {
         whois: 'whois.nic.io'
     },
-    ipiranga: {
+    'ipiranga': {
         rdap: 'https://rdap.nic.ipiranga/'
     },
-    iq: {
+    'iq': {
         whois: 'whois.cmc.iq'
     },
-    ir: {
+    'ir': {
         whois: 'whois.nic.ir'
     },
-    irish: {
+    'irish': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    is: {
+    'is': {
         whois: 'whois.isnic.is',
         rdap: 'https://rdap.isnic.is/rdap/'
     },
-    ismaili: {
+    'ismaili': {
         whois: 'whois.nic.ismaili',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ist: {
+    'ist': {
         whois: 'whois.nic.ist',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    istanbul: {
+    'istanbul': {
         whois: 'whois.nic.istanbul',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    it: {
+    'it': {
         whois: 'whois.nic.it'
     },
-    itau: {
+    'itau': {
         rdap: 'https://rdap.nic.itau/'
     },
-    itv: {
+    'itv': {
         whois: 'whois.nic.itv',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jaguar: {
+    'jaguar': {
         whois: 'whois.nic.jaguar',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    java: {
+    'java': {
         whois: 'whois.nic.java',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jcb: {
+    'jcb': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    je: {
+    'je': {
         whois: 'whois.je'
     },
-    jeep: {
+    'jeep': {
         whois: 'whois.nic.jeep',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jetzt: {
+    'jetzt': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jewelry: {
+    'jewelry': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jio: {
+    'jio': {
         whois: 'whois.nic.jio',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jll: {
+    'jll': {
         whois: 'whois.nic.jll',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    jmp: {
+    'jmp': {
         rdap: 'https://rdap.nic.jmp/'
     },
-    jnj: {
+    'jnj': {
         rdap: 'https://rdap.centralnicregistry.com/jnj'
     },
-    jobs: {
+    'jobs': {
         rdap: 'https://rdap.nominet.uk/jobs/'
     },
-    joburg: {
+    'joburg': {
         whois: 'whois.nic.joburg',
         rdap: 'https://rdap.nic.joburg/rdap/'
     },
-    jot: {
+    'jot': {
         rdap: 'https://rdap.nominet.uk/jot/'
     },
-    joy: {
+    'joy': {
         rdap: 'https://rdap.nominet.uk/joy/'
     },
-    jp: {
+    'jp': {
         whois: 'whois.jprs.jp'
     },
-    jpmorgan: {
+    'jpmorgan': {
         rdap: 'https://rdap.nic.jpmorgan/'
     },
-    jprs: {
+    'jprs': {
         whois: 'whois.nic.jprs',
         rdap: 'https://rdap.nic.jprs/rdap/'
     },
-    juegos: {
+    'juegos': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    juniper: {
+    'juniper': {
         whois: 'whois.nic.juniper',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kaufen: {
+    'kaufen': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kddi: {
+    'kddi': {
         whois: 'whois.nic.kddi',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    ke: {
+    'ke': {
         whois: 'whois.kenic.or.ke',
         rdap: 'https://rdap.kenic.or.ke'
     },
-    kerryhotels: {
+    'kerryhotels': {
         whois: 'whois.nic.kerryhotels',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kerryproperties: {
+    'kerryproperties': {
         whois: 'whois.nic.kerryproperties',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kfh: {
+    'kfh': {
         whois: 'whois.nic.kfh',
         rdap: 'https://rdap.centralnic.com/kfh'
     },
-    kg: {
+    'kg': {
         whois: 'whois.kg',
         rdap: 'http://rdap.cctld.kg/'
     },
-    ki: {
+    'ki': {
         whois: 'whois.nic.ki'
     },
-    kia: {
+    'kia': {
         whois: 'whois.nic.kia',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    kids: {
+    'kids': {
         whois: 'whois.nic.kids',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kim: {
+    'kim': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kindle: {
+    'kindle': {
         rdap: 'https://rdap.nominet.uk/kindle/'
     },
-    kitchen: {
+    'kitchen': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kiwi: {
+    'kiwi': {
         whois: 'whois.nic.kiwi',
         rdap: 'https://rdap.kiwi.fury.ca/rdap/'
     },
-    kn: {
+    'kn': {
         whois: 'whois.nic.kn'
     },
-    koeln: {
+    'koeln': {
         whois: 'whois.ryce-rsp.com',
         rdap: 'https://rdap.ryce-rsp.com/rdap/'
     },
-    komatsu: {
+    'komatsu': {
         whois: 'whois.nic.komatsu',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    kosher: {
+    'kosher': {
         whois: 'whois.nic.kosher',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    kpmg: {
+    'kpmg': {
         rdap: 'https://rdap.nic.kpmg/'
     },
-    kpn: {
+    'kpn': {
         rdap: 'https://rdap.centralnic.com/kpn'
     },
-    kr: {
+    'kr': {
         whois: 'whois.kr'
     },
-    krd: {
+    'krd': {
         whois: 'whois.nic.krd',
         rdap: 'https://rdap.nic.krd'
     },
-    kred: {
+    'kred': {
         rdap: 'https://rdap.centralnic.com/kred/'
     },
-    kuokgroup: {
+    'kuokgroup': {
         whois: 'whois.nic.kuokgroup',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ky: {
+    'ky': {
         whois: 'whois.kyregistry.ky',
         rdap: 'https://whois.kyregistry.ky/rdap/'
     },
-    kyoto: {
+    'kyoto': {
         whois: 'whois.nic.kyoto',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    kz: {
+    'kz': {
         whois: 'whois.nic.kz'
     },
-    la: {
+    'la': {
         whois: 'whois.nic.la'
     },
-    lacaixa: {
+    'lacaixa': {
         whois: 'whois.nic.lacaixa',
         rdap: 'https://rdap.nic.lacaixa/'
     },
-    lamborghini: {
+    'lamborghini': {
         whois: 'whois.nic.lamborghini',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lamer: {
+    'lamer': {
         whois: 'whois.nic.lamer',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    land: {
+    'land': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    landrover: {
+    'landrover': {
         whois: 'whois.nic.landrover',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lanxess: {
+    'lanxess': {
         rdap: 'https://rdap.nic.lanxess/'
     },
-    lasalle: {
+    'lasalle': {
         whois: 'whois.nic.lasalle',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lat: {
+    'lat': {
         whois: 'whois.nic.lat',
         rdap: 'https://rdap.centralnic.com/lat/'
     },
-    latino: {
+    'latino': {
         whois: 'whois.nic.latino',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    latrobe: {
+    'latrobe': {
         whois: 'whois.nic.latrobe',
         rdap: 'https://rdap.nic.latrobe/'
     },
-    law: {
+    'law': {
         whois: 'whois.nic.law',
         rdap: 'https://rdap.nic.law/'
     },
-    lawyer: {
+    'lawyer': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lb: {
+    'lb': {
         whois: 'whois.lbdr.org.lb',
         rdap: 'https://rdap.lbdr.org.lb'
     },
-    lds: {
+    'lds': {
         whois: 'whois.nic.lds',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lease: {
+    'lease': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    leclerc: {
+    'leclerc': {
         whois: 'whois.nic.leclerc',
         rdap: 'https://rdap.nic.leclerc'
     },
-    lefrak: {
+    'lefrak': {
         whois: 'whois.nic.lefrak',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    legal: {
+    'legal': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lego: {
+    'lego': {
         whois: 'whois.nic.lego',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lexus: {
+    'lexus': {
         whois: 'whois.nic.lexus',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    lgbt: {
+    'lgbt': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    li: {
+    'li': {
         whois: 'whois.nic.li'
     },
-    lidl: {
+    'lidl': {
         whois: 'whois.nic.lidl',
         rdap: 'https://rdap.centralnic.com/lidl'
     },
-    life: {
+    'life': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lifeinsurance: {
+    'lifeinsurance': {
         whois: 'whois.nic.lifeinsurance',
         rdap: 'https://rdap.nic.lifeinsurance/'
     },
-    lifestyle: {
+    'lifestyle': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    lighting: {
+    'lighting': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    like: {
+    'like': {
         rdap: 'https://rdap.nominet.uk/like/'
     },
-    lilly: {
+    'lilly': {
         rdap: 'https://rdap.nic.lilly/'
     },
-    limited: {
+    'limited': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    limo: {
+    'limo': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lincoln: {
+    'lincoln': {
         rdap: 'https://rdap.nic.lincoln/'
     },
-    link: {
+    'link': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    live: {
+    'live': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    living: {
+    'living': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    llc: {
+    'llc': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    llp: {
+    'llp': {
         whois: 'whois.nic.llp',
         rdap: 'https://rdap.centralnic.com/llp/'
     },
-    loan: {
+    'loan': {
         whois: 'whois.nic.loan',
         rdap: 'https://rdap.nic.loan/'
     },
-    loans: {
+    'loans': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    locker: {
+    'locker': {
         whois: 'whois.nic.locker',
         rdap: 'https://rdap.nic.locker/rdap/'
     },
-    locus: {
+    'locus': {
         rdap: 'https://rdap.nominet.uk/locus/'
     },
-    lol: {
+    'lol': {
         whois: 'whois.nic.lol',
         rdap: 'https://rdap.centralnic.com/lol/'
     },
-    london: {
+    'london': {
         whois: 'whois.nic.london',
         rdap: 'https://rdap.centralnic.com/london/'
     },
-    lotte: {
+    'lotte': {
         whois: 'whois.nic.lotte',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    lotto: {
+    'lotto': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    love: {
+    'love': {
         whois: 'whois.nic.love',
         rdap: 'https://rdap.registry.love/rdap/'
     },
-    lpl: {
+    'lpl': {
         whois: 'whois.nic.lpl',
         rdap: 'https://rdap.centralnic.com/lpl'
     },
-    lplfinancial: {
+    'lplfinancial': {
         whois: 'whois.nic.lplfinancial',
         rdap: 'https://rdap.centralnic.com/lplfinancial'
     },
-    ls: {
+    'ls': {
         whois: 'whois.nic.ls'
     },
-    lt: {
+    'lt': {
         whois: 'whois.domreg.lt'
     },
-    ltd: {
+    'ltd': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ltda: {
+    'ltda': {
         whois: 'whois.nic.ltda',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    lu: {
+    'lu': {
         whois: 'whois.dns.lu'
     },
-    lundbeck: {
+    'lundbeck': {
         whois: 'whois.nic.lundbeck',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    luxe: {
+    'luxe': {
         whois: 'whois.nic.luxe',
         rdap: 'https://rdap.nic.luxe/'
     },
-    luxury: {
+    'luxury': {
         whois: 'whois.nic.luxury',
         rdap: 'https://rdap.centralnic.com/luxury/'
     },
-    lv: {
+    'lv': {
         whois: 'whois.nic.lv'
     },
-    ly: {
+    'ly': {
         whois: 'whois.nic.ly',
         rdap: 'https://rdap.nic.ly'
     },
-    ma: {
+    'ma': {
         whois: 'whois.registre.ma'
     },
-    madrid: {
+    'madrid': {
         whois: 'whois.nic.madrid',
         rdap: 'https://rdap.nic.madrid/'
     },
-    maif: {
+    'maif': {
         whois: 'whois.nic.maif',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    maison: {
+    'maison': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    makeup: {
+    'makeup': {
         whois: 'whois.nic.makeup',
         rdap: 'https://rdap.centralnic.com/makeup/'
     },
-    man: {
+    'man': {
         whois: 'whois.nic.man',
         rdap: 'https://rdap.nic.man/'
     },
-    management: {
+    'management': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mango: {
+    'mango': {
         whois: 'whois.nic.mango',
         rdap: 'https://rdap.nic.mango/'
     },
-    map: {
+    'map': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    market: {
+    'market': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    marketing: {
+    'marketing': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    markets: {
+    'markets': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    marriott: {
+    'marriott': {
         whois: 'whois.nic.marriott',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    marshalls: {
+    'marshalls': {
         rdap: 'https://rdap.nic.marshalls/'
     },
-    mattel: {
+    'mattel': {
         rdap: 'https://rdap.nic.mattel/'
     },
-    mba: {
+    'mba': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mckinsey: {
+    'mckinsey': {
         whois: 'whois.nic.mckinsey',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    md: {
+    'md': {
         whois: 'whois.nic.md'
     },
-    me: {
+    'me': {
         whois: 'whois.nic.me'
     },
-    med: {
+    'med': {
         rdap: 'https://rdap.nominet.uk/med/'
     },
-    media: {
+    'media': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    meet: {
+    'meet': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    melbourne: {
+    'melbourne': {
         whois: 'whois.nic.melbourne',
         rdap: 'https://rdap.nic.melbourne/'
     },
-    meme: {
+    'meme': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    memorial: {
+    'memorial': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    men: {
+    'men': {
         whois: 'whois.nic.men',
         rdap: 'https://rdap.nic.men/'
     },
-    menu: {
+    'menu': {
         whois: 'whois.nic.menu',
         rdap: 'https://rdap.nic.menu/'
     },
-    merckmsd: {
+    'merckmsd': {
         whois: 'whois.nic.merckmsd',
         rdap: 'https://rdap.nic.merckmsd'
     },
-    mg: {
+    'mg': {
         whois: 'whois.nic.mg',
         rdap: 'http://rdap.nic.mg'
     },
-    miami: {
+    'miami': {
         whois: 'whois.nic.miami',
         rdap: 'https://rdap.nic.miami/'
     },
-    microsoft: {
+    'microsoft': {
         rdap: 'https://rdap.nominet.uk/microsoft/'
     },
-    mini: {
+    'mini': {
         whois: 'whois.nic.mini',
         rdap: 'https://rdap.centralnic.com/mini'
     },
-    mint: {
+    'mint': {
         rdap: 'https://rdap.nic.mint/'
     },
-    mit: {
+    'mit': {
         whois: 'whois.nic.mit',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mitsubishi: {
+    'mitsubishi': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    mk: {
+    'mk': {
         whois: 'whois.marnet.mk'
     },
-    ml: {
+    'ml': {
         whois: 'whois.nic.ml',
         rdap: 'https://rdap.nic.ml'
     },
-    mlb: {
+    'mlb': {
         rdap: 'https://rdap.nic.mlb/'
     },
-    mls: {
+    'mls': {
         whois: 'whois.nic.mls',
         rdap: 'https://rdap.mls.fury.ca/rdap/'
     },
-    mm: {
+    'mm': {
         whois: 'whois.registry.gov.mm'
     },
-    mma: {
+    'mma': {
         whois: 'whois.nic.mma',
         rdap: 'https://rdap.nic.mma'
     },
-    mn: {
+    'mn': {
         whois: 'whois.nic.mn'
     },
-    mo: {
+    'mo': {
         whois: 'whois.monic.mo'
     },
-    mobi: {
+    'mobi': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mobile: {
+    'mobile': {
         whois: 'whois.nic.mobile',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    moda: {
+    'moda': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    moe: {
+    'moe': {
         whois: 'whois.nic.moe',
         rdap: 'https://rdap.nic.moe/'
     },
-    moi: {
+    'moi': {
         rdap: 'https://rdap.nominet.uk/moi/'
     },
-    mom: {
+    'mom': {
         whois: 'whois.nic.mom',
         rdap: 'https://rdap.centralnic.com/mom/'
     },
-    monash: {
+    'monash': {
         whois: 'whois.nic.monash',
         rdap: 'https://rdap.nic.monash/'
     },
-    money: {
+    'money': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    monster: {
+    'monster': {
         whois: 'whois.nic.monster',
         rdap: 'https://rdap.centralnic.com/monster'
     },
-    mormon: {
+    'mormon': {
         whois: 'whois.nic.mormon',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mortgage: {
+    'mortgage': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    moscow: {
+    'moscow': {
         whois: 'whois.nic.moscow',
         rdap: 'https://rdap.flexireg.net'
     },
-    moto: {
+    'moto': {
         whois: 'whois.nic.moto',
         rdap: 'https://rdap.nic.moto/'
     },
-    motorcycles: {
+    'motorcycles': {
         whois: 'whois.nic.motorcycles',
         rdap: 'https://rdap.centralnic.com/motorcycles/'
     },
-    mov: {
+    'mov': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    movie: {
+    'movie': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    mq: {
+    'mq': {
         whois: 'whois.mediaserv.net'
     },
-    mr: {
+    'mr': {
         whois: 'whois.nic.mr'
     },
-    ms: {
+    'ms': {
         whois: 'whois.nic.ms',
         rdap: 'https://rdap.nic.ms'
     },
-    msd: {
+    'msd': {
         whois: 'whois.nic.msd',
         rdap: 'https://rdap.nic.msd'
     },
-    mtn: {
+    'mtn': {
         rdap: 'https://rdap.nominet.uk/mtn/'
     },
-    mtr: {
+    'mtr': {
         whois: 'whois.nic.mtr',
         rdap: 'https://whois.nic.mtr/rdap/'
     },
-    mu: {
+    'mu': {
         whois: 'whois.tld.mu',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    museum: {
+    'museum': {
         whois: 'whois.nic.museum',
         rdap: 'https://rdap.nic.museum'
     },
-    music: {
+    'music': {
         whois: 'whois.nic.music',
         rdap: 'https://rdap.registryservices.music/rdap/'
     },
-    mw: {
+    'mw': {
         whois: 'whois.nic.mw'
     },
-    mx: {
+    'mx': {
         whois: 'whois.mx'
     },
-    my: {
+    'my': {
         whois: 'whois.mynic.my'
     },
-    mz: {
+    'mz': {
         whois: 'whois.nic.mz'
     },
-    na: {
+    'na': {
         rdap: 'https://keetmans.omadhina.co.na'
     },
-    nab: {
+    'nab': {
         whois: 'whois.nic.nab',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nagoya: {
+    'nagoya': {
         whois: 'whois.nic.nagoya',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    name: {
+    'name': {
         whois: 'whois.nic.name',
         rdap: 'https://tld-rdap.verisign.com/name/v1/'
     },
-    navy: {
+    'navy': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nba: {
+    'nba': {
         rdap: 'https://rdap.nic.nba/'
     },
-    nec: {
+    'nec': {
         whois: 'whois.nic.nec',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    net: {
+    'net': {
         whois: 'whois.verisign-grs.com',
         rdap: 'https://rdap.verisign.com/net/v1/'
     },
-    netbank: {
+    'netbank': {
         whois: 'whois.nic.netbank',
         rdap: 'https://rdap.nic.netbank/'
     },
-    netflix: {
+    'netflix': {
         rdap: 'https://rdap.nic.netflix/'
     },
-    network: {
+    'network': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    neustar: {
+    'neustar': {
         rdap: 'https://rdap.nic.neustar/'
     },
-    new: {
+    'new': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    news: {
+    'news': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    next: {
+    'next': {
         whois: 'whois.nic.next',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nextdirect: {
+    'nextdirect': {
         whois: 'whois.nic.nextdirect',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nexus: {
+    'nexus': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    nf: {
+    'nf': {
         whois: 'whois.nic.nf',
         rdap: 'https://rdap.nic.nf'
     },
-    nfl: {
+    'nfl': {
         rdap: 'https://rdap.nic.nfl/'
     },
-    ng: {
+    'ng': {
         whois: 'whois.nic.net.ng'
     },
-    ngo: {
+    'ngo': {
         whois: 'whois.nic.ngo',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    nhk: {
+    'nhk': {
         whois: 'whois.nic.nhk',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    nico: {
+    'nico': {
         whois: 'whois.nic.nico',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    nike: {
+    'nike': {
         rdap: 'https://rdap.nic.nike/'
     },
-    nikon: {
+    'nikon': {
         whois: 'whois.nic.nikon',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ninja: {
+    'ninja': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nissan: {
+    'nissan': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    nissay: {
+    'nissay': {
         whois: 'whois.nic.nissay',
         rdap: 'https://tld-rdap.verisign.com/nissay/v1/'
     },
-    nl: {
+    'nl': {
         whois: 'whois.domain-registry.nl',
         rdap: 'https://rdap.sidn.nl/'
     },
-    no: {
+    'no': {
         whois: 'whois.norid.no',
         rdap: 'https://rdap.norid.no/'
     },
-    nokia: {
+    'nokia': {
         whois: 'whois.nic.nokia',
         rdap: 'https://rdap.centralnic.com/nokia/'
     },
-    norton: {
+    'norton': {
         whois: 'whois.nic.norton',
         rdap: 'https://rdap.nic.norton'
     },
-    now: {
+    'now': {
         rdap: 'https://rdap.nominet.uk/now/'
     },
-    nowruz: {
+    'nowruz': {
         rdap: 'https://rdap.nominet.uk/nowruz/'
     },
-    nowtv: {
+    'nowtv': {
         whois: 'whois.nic.nowtv',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nra: {
+    'nra': {
         whois: 'whois.nic.nra',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    nrw: {
+    'nrw': {
         whois: 'whois.nic.nrw',
         rdap: 'https://rdap.nic.nrw/'
     },
-    ntt: {
+    'ntt': {
         whois: 'whois.nic.ntt',
         rdap: 'https://rdap.nic.ntt/rdap/'
     },
-    nu: {
+    'nu': {
         whois: 'whois.iis.nu'
     },
-    nyc: {
+    'nyc': {
         whois: 'whois.nic.nyc',
         rdap: 'https://rdap.nic.nyc/'
     },
-    nz: {
+    'nz': {
         whois: 'whois.irs.net.nz'
     },
-    obi: {
+    'obi': {
         whois: 'whois.nic.obi',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    observer: {
+    'observer': {
         whois: 'whois.nic.observer',
         rdap: 'https://rdap.registry.click/rdap/'
     },
-    office: {
+    'office': {
         rdap: 'https://rdap.nominet.uk/office/'
     },
-    okinawa: {
+    'okinawa': {
         whois: 'whois.nic.okinawa',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    olayan: {
+    'olayan': {
         whois: 'whois.nic.olayan',
         rdap: 'https://rdap.nic.olayan/'
     },
-    olayangroup: {
+    'olayangroup': {
         whois: 'whois.nic.olayangroup',
         rdap: 'https://rdap.nic.olayangroup/'
     },
-    ollo: {
+    'ollo': {
         whois: 'whois.nic.ollo',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    om: {
+    'om': {
         whois: 'whois.registry.om'
     },
-    omega: {
+    'omega': {
         rdap: 'https://rdap.nominet.uk/omega/'
     },
-    one: {
+    'one': {
         whois: 'whois.nic.one',
         rdap: 'https://rdap.nic.one/'
     },
-    ong: {
+    'ong': {
         whois: 'whois.nic.ong',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    onl: {
+    'onl': {
         whois: 'whois.nic.onl',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    online: {
+    'online': {
         whois: 'whois.nic.online',
         rdap: 'https://rdap.centralnic.com/online'
     },
-    ooo: {
+    'ooo': {
         whois: 'whois.nic.ooo',
         rdap: 'https://rdap.centralnic.com/ooo'
     },
-    open: {
+    'open': {
         whois: 'whois.nic.open',
         rdap: 'https://rdap.nic.open/'
     },
-    oracle: {
+    'oracle': {
         whois: 'whois.nic.oracle',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    orange: {
+    'orange': {
         whois: 'whois.nic.orange',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    org: {
+    'org': {
         whois: 'whois.publicinterestregistry.org',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    organic: {
+    'organic': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    origins: {
+    'origins': {
         whois: 'whois.nic.origins',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    osaka: {
+    'osaka': {
         whois: 'whois.nic.osaka',
         rdap: 'https://rdap.nic.osaka/'
     },
-    otsuka: {
+    'otsuka': {
         whois: 'whois.nic.otsuka',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    ott: {
+    'ott': {
         whois: 'whois.nic.ott',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    ovh: {
+    'ovh': {
         whois: 'whois.nic.ovh',
         rdap: 'https://rdap.nic.ovh'
     },
-    page: {
+    'page': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    panasonic: {
+    'panasonic': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    paris: {
+    'paris': {
         whois: 'whois.nic.paris',
         rdap: 'https://rdap.nic.paris'
     },
-    pars: {
+    'pars': {
         rdap: 'https://rdap.nominet.uk/pars/'
     },
-    partners: {
+    'partners': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    parts: {
+    'parts': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    party: {
+    'party': {
         whois: 'whois.nic.party',
         rdap: 'https://rdap.nic.party/'
     },
-    pay: {
+    'pay': {
         rdap: 'https://rdap.nominet.uk/pay/'
     },
-    pccw: {
+    'pccw': {
         whois: 'whois.nic.pccw',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pe: {
+    'pe': {
         whois: 'kero.yachay.pe'
     },
-    pet: {
+    'pet': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pf: {
+    'pf': {
         whois: 'whois.registry.pf'
     },
-    pfizer: {
+    'pfizer': {
         rdap: 'https://rdap.nic.pfizer/'
     },
-    pg: {
+    'pg': {
         whois: 'whois.nic.pg',
         rdap: 'https://rdap.nic.pg'
     },
-    pharmacy: {
+    'pharmacy': {
         rdap: 'https://rdap.nominet.uk/pharmacy/'
     },
-    phd: {
+    'phd': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    philips: {
+    'philips': {
         whois: 'whois.nic.philips',
         rdap: 'https://rdap.nic.philips/'
     },
-    phone: {
+    'phone': {
         whois: 'whois.nic.phone',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    photo: {
+    'photo': {
         whois: 'whois.nic.photo',
         rdap: 'https://rdap.nic.photo/'
     },
-    photography: {
+    'photography': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    photos: {
+    'photos': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    physio: {
+    'physio': {
         whois: 'whois.nic.physio',
         rdap: 'https://rdap.nic.physio/'
     },
-    pics: {
+    'pics': {
         whois: 'whois.nic.pics',
         rdap: 'https://rdap.centralnic.com/pics/'
     },
-    pictet: {
+    'pictet': {
         whois: 'whois.nic.pictet',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pictures: {
+    'pictures': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pid: {
+    'pid': {
         whois: 'whois.registry.click',
         rdap: 'https://rdap.registry.click/rdap/'
     },
-    pin: {
+    'pin': {
         rdap: 'https://rdap.nominet.uk/pin/'
     },
-    ping: {
+    'ping': {
         whois: 'whois.nic.ping',
         rdap: 'https://rdap.nic.ping/'
     },
-    pink: {
+    'pink': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pioneer: {
+    'pioneer': {
         rdap: 'https://rdap.nominet.uk/pioneer/'
     },
-    pizza: {
+    'pizza': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pk: {
+    'pk': {
         whois: 'whois.pknic.net.pk'
     },
-    pl: {
+    'pl': {
         whois: 'whois.dns.pl',
         rdap: 'https://rdap.dns.pl'
     },
-    place: {
+    'place': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    play: {
+    'play': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    playstation: {
+    'playstation': {
         whois: 'whois.nic.playstation',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    plumbing: {
+    'plumbing': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    plus: {
+    'plus': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pm: {
+    'pm': {
         whois: 'whois.nic.pm',
         rdap: 'https://rdap.nic.pm/'
     },
-    pn: {
+    'pn': {
         rdap: 'https://rdap.nominet.uk/pn/'
     },
-    pnc: {
+    'pnc': {
         whois: 'whois.nic.pnc',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pohl: {
+    'pohl': {
         whois: 'whois.nic.pohl',
         rdap: 'https://rdap.centralnic.com/pohl'
     },
-    poker: {
+    'poker': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    politie: {
+    'politie': {
         whois: 'whois.nic.politie',
         rdap: 'https://rdap.nic.politie/'
     },
-    porn: {
+    'porn': {
         whois: 'whois.nic.porn',
         rdap: 'https://rdap.nic.porn/'
     },
-    post: {
+    'post': {
         whois: 'whois.nic.post',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pr: {
+    'pr': {
         whois: 'whois.afilias-srs.net'
     },
-    praxi: {
+    'praxi': {
         rdap: 'https://rdap.nic.praxi/'
     },
-    press: {
+    'press': {
         whois: 'whois.nic.press',
         rdap: 'https://rdap.centralnic.com/press'
     },
-    prime: {
+    'prime': {
         rdap: 'https://rdap.nominet.uk/prime/'
     },
-    pro: {
+    'pro': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    prod: {
+    'prod': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    productions: {
+    'productions': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    prof: {
+    'prof': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    progressive: {
+    'progressive': {
         whois: 'whois.nic.progressive',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    promo: {
+    'promo': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    properties: {
+    'properties': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    property: {
+    'property': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    protection: {
+    'protection': {
         whois: 'whois.nic.protection',
         rdap: 'https://rdap.centralnic.com/protection'
     },
-    pru: {
+    'pru': {
         rdap: 'https://rdap.nic.pru/'
     },
-    prudential: {
+    'prudential': {
         rdap: 'https://rdap.nic.prudential/'
     },
-    pt: {
+    'pt': {
         whois: 'whois.dns.pt'
     },
-    pub: {
+    'pub': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    pw: {
+    'pw': {
         whois: 'whois.nic.pw',
         rdap: 'https://rdap.centralnic.com/pw'
     },
-    pwc: {
+    'pwc': {
         whois: 'whois.nic.pwc',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    qa: {
+    'qa': {
         whois: 'whois.registry.qa'
     },
-    qpon: {
+    'qpon': {
         whois: 'whois.nic.qpon',
         rdap: 'https://rdap.centralnic.com/qpon/'
     },
-    quebec: {
+    'quebec': {
         whois: 'whois.nic.quebec',
         rdap: 'https://rdap.nic.quebec'
     },
-    quest: {
+    'quest': {
         whois: 'whois.nic.quest',
         rdap: 'https://rdap.centralnic.com/quest/'
     },
-    racing: {
+    'racing': {
         whois: 'whois.nic.racing',
         rdap: 'https://rdap.nic.racing/'
     },
-    radio: {
+    'radio': {
         whois: 'whois.nic.radio',
         rdap: 'https://rdap.nic.radio/'
     },
-    re: {
+    're': {
         whois: 'whois.nic.re',
         rdap: 'https://rdap.nic.re/'
     },
-    read: {
+    'read': {
         rdap: 'https://rdap.nominet.uk/read/'
     },
-    realestate: {
+    'realestate': {
         rdap: 'https://rdap.nominet.uk/realestate/'
     },
-    realtor: {
+    'realtor': {
         rdap: 'https://rdap.nominet.uk/realtor/'
     },
-    realty: {
+    'realty': {
         whois: 'whois.nic.realty',
         rdap: 'https://rdap.registry.click/rdap/'
     },
-    recipes: {
+    'recipes': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    red: {
+    'red': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    redumbrella: {
+    'redumbrella': {
         whois: 'whois.nic.redumbrella',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rehab: {
+    'rehab': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    reise: {
+    'reise': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    reisen: {
+    'reisen': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    reit: {
+    'reit': {
         whois: 'whois.nic.reit',
         rdap: 'https://rdap.centralnic.com/reit'
     },
-    reliance: {
+    'reliance': {
         whois: 'whois.nic.reliance',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ren: {
+    'ren': {
         whois: 'whois.nic.ren',
         rdap: 'https://rdap.zdnsgtld.com/ren'
     },
-    rent: {
+    'rent': {
         whois: 'whois.nic.rent',
         rdap: 'https://rdap.centralnic.com/rent'
     },
-    rentals: {
+    'rentals': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    repair: {
+    'repair': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    report: {
+    'report': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    republican: {
+    'republican': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rest: {
+    'rest': {
         whois: 'whois.nic.rest',
         rdap: 'https://rdap.registry.bar/rdap/'
     },
-    restaurant: {
+    'restaurant': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    review: {
+    'review': {
         whois: 'whois.nic.review',
         rdap: 'https://rdap.nic.review/'
     },
-    reviews: {
+    'reviews': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rexroth: {
+    'rexroth': {
         whois: 'whois.nic.rexroth',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rich: {
+    'rich': {
         whois: 'whois.nic.rich',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    richardli: {
+    'richardli': {
         whois: 'whois.nic.richardli',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ricoh: {
+    'ricoh': {
         whois: 'whois.nic.ricoh',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    ril: {
+    'ril': {
         whois: 'whois.nic.ril',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rio: {
+    'rio': {
         rdap: 'https://rdap.gtlds.nic.br/'
     },
-    rip: {
+    'rip': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ro: {
+    'ro': {
         whois: 'whois.rotld.ro'
     },
-    rocks: {
+    'rocks': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rodeo: {
+    'rodeo': {
         whois: 'whois.nic.rodeo',
         rdap: 'https://rdap.nic.rodeo/'
     },
-    rogers: {
+    'rogers': {
         whois: 'whois.nic.rogers',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    room: {
+    'room': {
         rdap: 'https://rdap.nominet.uk/room/'
     },
-    rs: {
+    'rs': {
         whois: 'whois.rnids.rs'
     },
-    rsvp: {
+    'rsvp': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    ru: {
+    'ru': {
         whois: 'whois.tcinet.ru'
     },
-    rugby: {
+    'rugby': {
         whois: 'whois.nic.rugby',
         rdap: 'https://rdap.nic.rugby'
     },
-    ruhr: {
+    'ruhr': {
         whois: 'whois.nic.ruhr',
         rdap: 'https://rdap.centralnic.com/ruhr/'
     },
-    run: {
+    'run': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    rw: {
+    'rw': {
         whois: 'whois.ricta.org.rw',
         rdap: 'https://rdap.ricta.org.rw'
     },
-    rwe: {
+    'rwe': {
         whois: 'whois.nic.rwe',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ryukyu: {
+    'ryukyu': {
         whois: 'whois.nic.ryukyu',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    sa: {
+    'sa': {
         whois: 'whois.nic.net.sa'
     },
-    saarland: {
+    'saarland': {
         whois: 'whois.nic.saarland',
         rdap: 'https://rdap.centralnic.com/saarland'
     },
-    safe: {
+    'safe': {
         rdap: 'https://rdap.nominet.uk/safe/'
     },
-    safety: {
+    'safety': {
         whois: 'whois.nic.safety',
         rdap: 'https://rdap.nic.safety/'
     },
-    sakura: {
+    'sakura': {
         whois: 'whois.nic.sakura',
         rdap: 'https://rdap.nic.sakura/rdap/'
     },
-    sale: {
+    'sale': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    salon: {
+    'salon': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    samsclub: {
+    'samsclub': {
         whois: 'whois.nic.samsclub',
         rdap: 'https://rdap.nic.samsclub'
     },
-    samsung: {
+    'samsung': {
         whois: 'whois.nic.samsung',
         rdap: 'https://nic.samsung/rdap/'
     },
-    sandvik: {
+    'sandvik': {
         whois: 'whois.nic.sandvik',
         rdap: 'https://rdap.nic.sandvik/'
     },
-    sandvikcoromant: {
+    'sandvikcoromant': {
         whois: 'whois.nic.sandvikcoromant',
         rdap: 'https://rdap.nic.sandvikcoromant/'
     },
-    sanofi: {
+    'sanofi': {
         whois: 'whois.nic.sanofi',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sap: {
+    'sap': {
         whois: 'whois.nic.sap',
         rdap: 'https://rdap.nic.sap/'
     },
-    sarl: {
+    'sarl': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sas: {
+    'sas': {
         rdap: 'https://rdap.nic.sas/'
     },
-    save: {
+    'save': {
         rdap: 'https://rdap.nominet.uk/save/'
     },
-    saxo: {
+    'saxo': {
         whois: 'whois.nic.saxo',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sb: {
+    'sb': {
         whois: 'whois.nic.net.sb'
     },
-    sbi: {
+    'sbi': {
         whois: 'whois.nic.sbi',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sbs: {
+    'sbs': {
         whois: 'whois.nic.sbs',
         rdap: 'https://rdap.centralnic.com/sbs/'
     },
-    sc: {
+    'sc': {
         whois: 'whois.nic.sc'
     },
-    scb: {
+    'scb': {
         whois: 'whois.nic.scb',
         rdap: 'https://rdap.nic.scb/'
     },
-    schaeffler: {
+    'schaeffler': {
         whois: 'whois.afilias-srs.net',
         rdap: 'https://rdap.nic.schaeffler/'
     },
-    schmidt: {
+    'schmidt': {
         whois: 'whois.nic.schmidt',
         rdap: 'https://rdap.nic.schmidt/'
     },
-    scholarships: {
+    'scholarships': {
         whois: 'whois.nic.scholarships',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    school: {
+    'school': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    schule: {
+    'schule': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    schwarz: {
+    'schwarz': {
         whois: 'whois.nic.schwarz',
         rdap: 'https://rdap.centralnic.com/schwarz'
     },
-    science: {
+    'science': {
         whois: 'whois.nic.science',
         rdap: 'https://rdap.nic.science/'
     },
-    scot: {
+    'scot': {
         whois: 'whois.nic.scot',
         rdap: 'https://rdap.nic.scot/'
     },
-    sd: {
+    'sd': {
         whois: 'whois.nic.sd',
         rdap: 'https://rdap.nic.sd'
     },
-    se: {
+    'se': {
         whois: 'whois.iis.se'
     },
-    search: {
+    'search': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    seat: {
+    'seat': {
         whois: 'whois.nic.seat',
         rdap: 'https://rdap.nic.seat/'
     },
-    secure: {
+    'secure': {
         rdap: 'https://rdap.nominet.uk/secure/'
     },
-    security: {
+    'security': {
         whois: 'whois.nic.security',
         rdap: 'https://rdap.centralnic.com/security'
     },
-    seek: {
+    'seek': {
         whois: 'whois.nic.seek',
         rdap: 'https://rdap.nic.seek/'
     },
-    select: {
+    'select': {
         whois: 'whois.nic.select',
         rdap: 'https://rdap.nic.select/'
     },
-    sener: {
+    'sener': {
         whois: 'whois.nic.rwe',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    services: {
+    'services': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    seven: {
+    'seven': {
         whois: 'whois.nic.seven',
         rdap: 'https://rdap.nic.seven/'
     },
-    sew: {
+    'sew': {
         whois: 'whois.nic.sew',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sex: {
+    'sex': {
         whois: 'whois.nic.sex',
         rdap: 'https://rdap.nic.sex/'
     },
-    sexy: {
+    'sexy': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    sfr: {
+    'sfr': {
         whois: 'whois.nic.sfr',
         rdap: 'https://rdap.centralnic.com/sfr'
     },
-    sg: {
+    'sg': {
         whois: 'whois.sgnic.sg'
     },
-    sh: {
+    'sh': {
         whois: 'whois.nic.sh'
     },
-    shangrila: {
+    'shangrila': {
         whois: 'whois.nic.shangrila',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sharp: {
+    'sharp': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    shell: {
+    'shell': {
         rdap: 'https://rdap.nominet.uk/shell/'
     },
-    shia: {
+    'shia': {
         rdap: 'https://rdap.nominet.uk/shia/'
     },
-    shiksha: {
+    'shiksha': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    shoes: {
+    'shoes': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    shop: {
+    'shop': {
         whois: 'whois.nic.shop',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    shopping: {
+    'shopping': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    shouji: {
+    'shouji': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/'
     },
-    show: {
+    'show': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    si: {
+    'si': {
         whois: 'whois.register.si',
         rdap: 'https://rdap.register.si/'
     },
-    silk: {
+    'silk': {
         rdap: 'https://rdap.nominet.uk/silk/'
     },
-    sina: {
+    'sina': {
         whois: 'whois.nic.sina',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    singles: {
+    'singles': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    site: {
+    'site': {
         whois: 'whois.nic.site',
         rdap: 'https://rdap.centralnic.com/site'
     },
-    sk: {
+    'sk': {
         whois: 'whois.sk-nic.sk'
     },
-    ski: {
+    'ski': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    skin: {
+    'skin': {
         whois: 'whois.nic.skin',
         rdap: 'https://rdap.centralnic.com/skin/'
     },
-    sky: {
+    'sky': {
         rdap: 'https://rdap.nominet.uk/sky/'
     },
-    skype: {
+    'skype': {
         rdap: 'https://rdap.nominet.uk/skype/'
     },
-    sling: {
+    'sling': {
         whois: 'whois.nic.sling',
         rdap: 'https://rdap.mobile-registry.com/rdap/'
     },
-    sm: {
+    'sm': {
         whois: 'whois.nic.sm'
     },
-    smart: {
+    'smart': {
         whois: 'whois.nic.smart',
         rdap: 'https://rdap.centralnic.com/smart'
     },
-    smile: {
+    'smile': {
         rdap: 'https://rdap.nominet.uk/smile/'
     },
-    sn: {
+    'sn': {
         whois: 'whois.nic.sn'
     },
-    sncf: {
+    'sncf': {
         whois: 'whois.nic.sncf',
         rdap: 'https://rdap.nic.sncf'
     },
-    so: {
+    'so': {
         whois: 'whois.nic.so'
     },
-    soccer: {
+    'soccer': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    social: {
+    'social': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    softbank: {
+    'softbank': {
         whois: 'whois.nic.softbank',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    software: {
+    'software': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sohu: {
+    'sohu': {
         rdap: 'https://rdap.zdnsgtld.com/sohu'
     },
-    solar: {
+    'solar': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    solutions: {
+    'solutions': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    song: {
+    'song': {
         whois: 'whois.nic.song',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    sony: {
+    'sony': {
         whois: 'whois.nic.sony',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    soy: {
+    'soy': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    spa: {
+    'spa': {
         whois: 'whois.nic.spa',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    space: {
+    'space': {
         whois: 'whois.nic.space',
         rdap: 'https://rdap.centralnic.com/space'
     },
-    sport: {
+    'sport': {
         whois: 'whois.nic.sport',
         rdap: 'https://rdap.nic.sport/'
     },
-    spot: {
+    'spot': {
         rdap: 'https://rdap.nominet.uk/spot/'
     },
-    sr: {
+    'sr': {
         whois: 'whois.sr',
         rdap: 'https://whois.sr/rdap/'
     },
-    srl: {
+    'srl': {
         whois: 'whois.nic.srl',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ss: {
+    'ss': {
         whois: 'whois.nic.ss',
         rdap: 'https://rdap.nic.ss'
     },
-    st: {
+    'st': {
         whois: 'whois.nic.st'
     },
-    stada: {
+    'stada': {
         whois: 'whois.nic.stada',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    staples: {
+    'staples': {
         rdap: 'https://rdap.nic.staples/'
     },
-    star: {
+    'star': {
         whois: 'whois.nic.star',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    statebank: {
+    'statebank': {
         whois: 'whois.nic.statebank',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    statefarm: {
+    'statefarm': {
         rdap: 'https://rdap.nic.statefarm/'
     },
-    stc: {
+    'stc': {
         whois: 'whois.nic.stc',
         rdap: 'https://rdap.centralnic.com/stc'
     },
-    stcgroup: {
+    'stcgroup': {
         whois: 'whois.nic.stcgroup',
         rdap: 'https://rdap.centralnic.com/stcgroup'
     },
-    stockholm: {
+    'stockholm': {
         whois: 'whois.nic.stockholm',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    storage: {
+    'storage': {
         whois: 'whois.nic.storage',
         rdap: 'https://rdap.centralnic.com/storage'
     },
-    store: {
+    'store': {
         whois: 'whois.nic.store',
         rdap: 'https://rdap.centralnic.com/store'
     },
-    stream: {
+    'stream': {
         whois: 'whois.nic.stream',
         rdap: 'https://rdap.nic.stream/'
     },
-    studio: {
+    'studio': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    study: {
+    'study': {
         whois: 'whois.nic.study',
         rdap: 'https://rdap.nic.study/'
     },
-    style: {
+    'style': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    su: {
+    'su': {
         whois: 'whois.tcinet.ru'
     },
-    sucks: {
+    'sucks': {
         whois: 'whois.nic.sucks',
         rdap: 'https://rdap.nic.sucks/'
     },
-    supplies: {
+    'supplies': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    supply: {
+    'supply': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    support: {
+    'support': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    surf: {
+    'surf': {
         whois: 'whois.nic.surf',
         rdap: 'https://rdap.nic.surf/'
     },
-    surgery: {
+    'surgery': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    suzuki: {
+    'suzuki': {
         whois: 'whois.nic.suzuki',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    swatch: {
+    'swatch': {
         rdap: 'https://rdap.nominet.uk/swatch/'
     },
-    swiss: {
+    'swiss': {
         whois: 'whois.nic.swiss',
         rdap: 'https://rdap.nic.swiss'
     },
-    sx: {
+    'sx': {
         whois: 'whois.sx'
     },
-    sy: {
+    'sy': {
         whois: 'whois.tld.sy'
     },
-    sydney: {
+    'sydney': {
         whois: 'whois.nic.sydney',
         rdap: 'https://rdap.nic.sydney/'
     },
-    systems: {
+    'systems': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tab: {
+    'tab': {
         whois: 'whois.nic.tab',
         rdap: 'https://rdap.nic.tab/'
     },
-    taipei: {
+    'taipei': {
         whois: 'whois.nic.taipei',
         rdap: 'https://rdap.nic.taipei/'
     },
-    talk: {
+    'talk': {
         rdap: 'https://rdap.nominet.uk/talk/'
     },
-    taobao: {
+    'taobao': {
         whois: 'whois.nic.taobao',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    target: {
+    'target': {
         rdap: 'https://rdap.nic.target/'
     },
-    tatamotors: {
+    'tatamotors': {
         whois: 'whois.nic.tatamotors',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tatar: {
+    'tatar': {
         whois: 'whois.nic.tatar',
         rdap: 'https://whois.nic.tatar/rdap/'
     },
-    tattoo: {
+    'tattoo': {
         whois: 'whois.nic.tattoo',
         rdap: 'https://rdap.nic.tattoo'
     },
-    tax: {
+    'tax': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    taxi: {
+    'taxi': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tc: {
+    'tc': {
         whois: 'whois.nic.tc'
     },
-    tci: {
+    'tci': {
         rdap: 'https://rdap.nominet.uk/tci/'
     },
-    td: {
+    'td': {
         whois: 'whois.nic.td'
     },
-    tdk: {
+    'tdk': {
         whois: 'whois.nic.tdk',
         rdap: 'https://rdap.nic.tdk/'
     },
-    team: {
+    'team': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tech: {
+    'tech': {
         whois: 'whois.nic.tech',
         rdap: 'https://rdap.centralnic.com/tech'
     },
-    technology: {
+    'technology': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tel: {
+    'tel': {
         whois: 'whois.nic.tel',
         rdap: 'https://rdap.nic.tel/'
     },
-    temasek: {
+    'temasek': {
         whois: 'whois.nic.temasek',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tennis: {
+    'tennis': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    teva: {
+    'teva': {
         whois: 'whois.nic.teva',
         rdap: 'https://rdap.nic.teva/'
     },
-    tf: {
+    'tf': {
         whois: 'whois.nic.tf',
         rdap: 'https://rdap.nic.tf/'
     },
-    tg: {
+    'tg': {
         whois: 'whois.nic.tg'
     },
-    th: {
+    'th': {
         whois: 'whois.thnic.co.th',
         rdap: 'https://rdap.thains.co.th'
     },
-    thd: {
+    'thd': {
         whois: 'whois.nic.thd',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    theater: {
+    'theater': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    theatre: {
+    'theatre': {
         whois: 'whois.nic.theatre',
         rdap: 'https://rdap.centralnic.com/theatre'
     },
-    tiaa: {
+    'tiaa': {
         whois: 'whois.nic.tiaa',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tickets: {
+    'tickets': {
         whois: 'whois.nic.tickets',
         rdap: 'https://rdap.centralnic.com/tickets'
     },
-    tienda: {
+    'tienda': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tips: {
+    'tips': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tires: {
+    'tires': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tirol: {
+    'tirol': {
         whois: 'whois.nic.tirol',
         rdap: 'https://rdap.ryce-rsp.com/rdap/'
     },
-    tjmaxx: {
+    'tjmaxx': {
         rdap: 'https://rdap.nic.tjmaxx/'
     },
-    tjx: {
+    'tjx': {
         rdap: 'https://rdap.nic.tjx/'
     },
-    tk: {
+    'tk': {
         whois: 'whois.dot.tk'
     },
-    tkmaxx: {
+    'tkmaxx': {
         rdap: 'https://rdap.nic.tkmaxx/'
     },
-    tl: {
+    'tl': {
         whois: 'whois.nic.tl'
     },
-    tm: {
+    'tm': {
         whois: 'whois.nic.tm'
     },
-    tmall: {
+    'tmall': {
         whois: 'whois.nic.tmall',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tn: {
+    'tn': {
         whois: 'whois.ati.tn'
     },
-    to: {
+    'to': {
         whois: 'whois.tonicregistry.to',
         rdap: 'https://rdap.tonicregistry.to/rdap/'
     },
-    today: {
+    'today': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tokyo: {
+    'tokyo': {
         whois: 'whois.nic.tokyo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    tools: {
+    'tools': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    top: {
+    'top': {
         whois: 'whois.nic.top',
         rdap: 'https://rdap.zdnsgtld.com/top/'
     },
-    toray: {
+    'toray': {
         whois: 'whois.nic.toray',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    toshiba: {
+    'toshiba': {
         whois: 'whois.nic.toshiba',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    total: {
+    'total': {
         whois: 'whois.nic.total',
         rdap: 'https://rdap.nic.total'
     },
-    tours: {
+    'tours': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    town: {
+    'town': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    toyota: {
+    'toyota': {
         whois: 'whois.nic.toyota',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    toys: {
+    'toys': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tr: {
+    'tr': {
         whois: 'whois.trabis.gov.tr'
     },
-    trade: {
+    'trade': {
         whois: 'whois.nic.trade',
         rdap: 'https://rdap.nic.trade/'
     },
-    trading: {
+    'trading': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    training: {
+    'training': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    travel: {
+    'travel': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    travelers: {
+    'travelers': {
         whois: 'whois.nic.travelers',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    travelersinsurance: {
+    'travelersinsurance': {
         whois: 'whois.nic.travelersinsurance',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    trust: {
+    'trust': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    trv: {
+    'trv': {
         whois: 'whois.nic.trv',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tube: {
+    'tube': {
         whois: 'whois.nic.tube',
         rdap: 'https://rdap.nic.tube/'
     },
-    tui: {
+    'tui': {
         whois: 'whois.nic.tui',
         rdap: 'https://rdap.centralnic.com/tui'
     },
-    tunes: {
+    'tunes': {
         rdap: 'https://rdap.nominet.uk/tunes/'
     },
-    tushu: {
+    'tushu': {
         rdap: 'https://rdap.nominet.uk/tushu/'
     },
-    tv: {
+    'tv': {
         whois: 'whois.nic.tv',
         rdap: 'https://rdap.nic.tv/'
     },
-    tvs: {
+    'tvs': {
         whois: 'whois.nic.tvs',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    tw: {
+    'tw': {
         whois: 'whois.twnic.net.tw',
         rdap: 'https://ccrdap.twnic.tw/tw/'
     },
-    tz: {
+    'tz': {
         whois: 'whois.tznic.or.tz',
         rdap: 'https://whois.tznic.or.tz/rdap/'
     },
-    ua: {
+    'ua': {
         whois: 'whois.ua',
         rdap: 'https://rdap.hostmaster.ua'
     },
-    ubank: {
+    'ubank': {
         whois: 'whois.nic.ubank',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ubs: {
+    'ubs': {
         whois: 'whois.nic.ubs',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ug: {
+    'ug': {
         whois: 'whois.co.ug'
     },
-    uk: {
+    'uk': {
         whois: 'whois.nic.uk',
         rdap: 'https://rdap.nominet.uk/uk/'
     },
-    unicom: {
+    'unicom': {
         whois: 'whois.nic.unicom',
         rdap: 'https://rdap.zdnsgtld.com/unicom'
     },
-    university: {
+    'university': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    uno: {
+    'uno': {
         whois: 'whois.nic.uno',
         rdap: 'https://rdap.centralnic.com/uno/'
     },
-    uol: {
+    'uol': {
         rdap: 'https://rdap.gtlds.nic.br/'
     },
-    ups: {
+    'ups': {
         whois: 'whois.nic.ups',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    us: {
+    'us': {
         whois: 'whois.nic.us'
     },
-    uy: {
+    'uy': {
         whois: 'whois.nic.org.uy'
     },
-    uz: {
+    'uz': {
         whois: 'whois.cctld.uz',
         rdap: 'https://rdap.cctld.uz'
     },
-    vacations: {
+    'vacations': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vana: {
+    'vana': {
         whois: 'whois.tucowsregistry.net',
         rdap: 'https://rdap.tucowsregistry.net/rdap/'
     },
-    vanguard: {
+    'vanguard': {
         whois: 'whois.nic.vanguard',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vc: {
+    'vc': {
         whois: 'whois.identitydigital.services'
     },
-    ve: {
+    've': {
         whois: 'whois.nic.ve'
     },
-    vegas: {
+    'vegas': {
         whois: 'whois.nic.vegas',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ventures: {
+    'ventures': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    verisign: {
+    'verisign': {
         whois: 'whois.nic.verisign',
         rdap: 'https://tld-rdap.verisign.com/verisign/v1/'
     },
-    vermögensberater: {
+    'vermögensberater': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.centralnic.com/xn--vermgensberater-ctb'
     },
-    vermögensberatung: {
+    'vermögensberatung': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.centralnic.com/xn--vermgensberatung-pwb'
     },
-    versicherung: {
+    'versicherung': {
         whois: 'whois.nic.versicherung',
         rdap: 'https://rdap.nic.versicherung/v1/'
     },
-    vet: {
+    'vet': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vg: {
+    'vg': {
         whois: 'whois.nic.vg',
         rdap: 'https://rdap.centralnic.com/vg'
     },
-    vi: {
+    'vi': {
         whois: 'virgil.nic.vi',
         rdap: 'https://rdap.nic.vi'
     },
-    viajes: {
+    'viajes': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    video: {
+    'video': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vig: {
+    'vig': {
         whois: 'whois.nic.vig',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    viking: {
+    'viking': {
         whois: 'whois.nic.viking',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    villas: {
+    'villas': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vin: {
+    'vin': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vip: {
+    'vip': {
         whois: 'whois.nic.vip',
         rdap: 'https://rdap.nic.vip/'
     },
-    virgin: {
+    'virgin': {
         rdap: 'https://rdap.nominet.uk/virgin/'
     },
-    visa: {
+    'visa': {
         whois: 'whois.nic.visa',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vision: {
+    'vision': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    viva: {
+    'viva': {
         whois: 'whois.nic.viva',
         rdap: 'https://rdap.centralnic.com/viva'
     },
-    vivo: {
+    'vivo': {
         rdap: 'https://rdap.nic.vivo/'
     },
-    vlaanderen: {
+    'vlaanderen': {
         rdap: 'https://rdap.nic.vlaanderen'
     },
-    vodka: {
+    'vodka': {
         whois: 'whois.nic.vodka',
         rdap: 'https://rdap.nic.vodka/'
     },
-    volvo: {
+    'volvo': {
         whois: 'whois.nic.volvo',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vote: {
+    'vote': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    voting: {
+    'voting': {
         whois: 'whois.nic.voting',
         rdap: 'https://rdap.nic.voting/'
     },
-    voto: {
+    'voto': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    voyage: {
+    'voyage': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    vu: {
+    'vu': {
         whois: 'whois.dnrs.vu'
     },
-    wales: {
+    'wales': {
         rdap: 'https://rdap.nominet.uk/wales/'
     },
-    walmart: {
+    'walmart': {
         whois: 'whois.nic.walmart',
         rdap: 'https://rdap.nic.walmart'
     },
-    walter: {
+    'walter': {
         whois: 'whois.nic.walter',
         rdap: 'https://rdap.nic.walter/'
     },
-    wang: {
+    'wang': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/wang'
     },
-    wanggou: {
+    'wanggou': {
         rdap: 'https://rdap.nominet.uk/wanggou/'
     },
-    watch: {
+    'watch': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    watches: {
+    'watches': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    weather: {
+    'weather': {
         rdap: 'https://rdap.nic.weather/'
     },
-    weatherchannel: {
+    'weatherchannel': {
         rdap: 'https://rdap.nic.weatherchannel/'
     },
-    webcam: {
+    'webcam': {
         whois: 'whois.nic.webcam',
         rdap: 'https://rdap.nic.webcam/'
     },
-    weber: {
+    'weber': {
         whois: 'whois.nic.weber',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    website: {
+    'website': {
         whois: 'whois.nic.website',
         rdap: 'https://rdap.centralnic.com/website'
     },
-    wed: {
+    'wed': {
         rdap: 'https://rdap.nominet.uk/wed/'
     },
-    wedding: {
+    'wedding': {
         whois: 'whois.nic.wedding',
         rdap: 'https://rdap.nic.wedding/'
     },
-    weibo: {
+    'weibo': {
         whois: 'whois.nic.weibo',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    weir: {
+    'weir': {
         whois: 'whois.nic.weir',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    wf: {
+    'wf': {
         whois: 'whois.nic.wf',
         rdap: 'https://rdap.nic.wf/'
     },
-    whoswho: {
+    'whoswho': {
         whois: 'whois.nic.whoswho',
         rdap: 'https://rdap.nic.whoswho/'
     },
-    wien: {
+    'wien': {
         whois: 'whois.nic.wien',
         rdap: 'https://rdap.ryce-rsp.com/rdap/'
     },
-    wiki: {
+    'wiki': {
         whois: 'whois.nic.wiki',
         rdap: 'https://rdap.nic.wiki/'
     },
-    williamhill: {
+    'williamhill': {
         rdap: 'https://rdap.nic.williamhill/'
     },
-    win: {
+    'win': {
         whois: 'whois.nic.win',
         rdap: 'https://rdap.nic.win/'
     },
-    windows: {
+    'windows': {
         rdap: 'https://rdap.nominet.uk/windows/'
     },
-    wine: {
+    'wine': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    winners: {
+    'winners': {
         rdap: 'https://rdap.nic.winners/'
     },
-    wme: {
+    'wme': {
         whois: 'whois.nic.wme',
         rdap: 'https://rdap.centralnic.com/wme'
     },
-    wolterskluwer: {
+    'wolterskluwer': {
         whois: 'whois.nic.wolterskluwer',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    woodside: {
+    'woodside': {
         whois: 'whois.nic.woodside',
         rdap: 'https://rdap.nic.woodside/'
     },
-    work: {
+    'work': {
         whois: 'whois.nic.work',
         rdap: 'https://rdap.nic.work/'
     },
-    works: {
+    'works': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    world: {
+    'world': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    wow: {
+    'wow': {
         rdap: 'https://rdap.nominet.uk/wow/'
     },
-    ws: {
+    'ws': {
         whois: 'whois.website.ws'
     },
-    wtc: {
+    'wtc': {
         whois: 'whois.nic.wtc',
         rdap: 'https://rdap.nic.wtc/'
     },
-    wtf: {
+    'wtf': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    xerox: {
+    'xerox': {
         whois: 'whois.nic.xerox',
         rdap: 'https://rdap.nic.xerox/'
     },
-    xihuan: {
+    'xihuan': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/'
     },
-    xin: {
+    'xin': {
         whois: 'whois.nic.xin',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    xxx: {
+    'xxx': {
         whois: 'whois.nic.xxx',
         rdap: 'https://rdap.nic.xxx/'
     },
-    xyz: {
+    'xyz': {
         whois: 'whois.nic.xyz',
         rdap: 'https://rdap.centralnic.com/xyz'
     },
-    yachts: {
+    'yachts': {
         whois: 'whois.nic.yachts',
         rdap: 'https://rdap.centralnic.com/yachts/'
     },
-    yahoo: {
+    'yahoo': {
         whois: 'whois.nic.yahoo',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    yamaxun: {
+    'yamaxun': {
         rdap: 'https://rdap.nominet.uk/yamaxun/'
     },
-    yandex: {
+    'yandex': {
         whois: 'whois.nic.yandex',
         rdap: 'https://rdap.nic.yandex/rdap/'
     },
-    ye: {
+    'ye': {
         whois: 'whois.y.net.ye',
         rdap: 'https://rdap.y.net.ye/'
     },
-    yodobashi: {
+    'yodobashi': {
         whois: 'whois.nic.gmo',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    yoga: {
+    'yoga': {
         whois: 'whois.nic.yoga',
         rdap: 'https://rdap.nic.yoga/'
     },
-    yokohama: {
+    'yokohama': {
         whois: 'whois.nic.yokohama',
         rdap: 'https://rdap.gmoregistry.net/rdap/'
     },
-    you: {
+    'you': {
         rdap: 'https://rdap.nominet.uk/you/'
     },
-    youtube: {
+    'youtube': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    yt: {
+    'yt': {
         whois: 'whois.nic.yt',
         rdap: 'https://rdap.nic.yt/'
     },
-    yun: {
+    'yun': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/'
     },
-    zappos: {
+    'zappos': {
         rdap: 'https://rdap.nominet.uk/zappos/'
     },
-    zara: {
+    'zara': {
         whois: 'whois.nic.zara',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    zero: {
+    'zero': {
         whois: 'whois.nic.zero',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    zip: {
+    'zip': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    zm: {
+    'zm': {
         whois: 'whois.zicta.zm',
         rdap: 'https://rdap.nic.zm'
     },
-    zone: {
+    'zone': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    zuerich: {
+    'zuerich': {
         whois: 'whois.nic.zuerich',
         rdap: 'https://rdap.centralnic.com/zuerich'
     },
-    ευ: {
+    'ευ': {
         whois: 'whois.eu'
     },
-    бг: {
+    'бг': {
         whois: 'whois.imena.bg'
     },
-    бел: {
+    'бел': {
         whois: 'whois.cctld.by'
     },
-    дети: {
+    'дети': {
         whois: 'whois.nic.xn',
         rdap: 'https://whois.nic.xn--d1acj3b/rdap/'
     },
-    ею: {
+    'ею': {
         whois: 'whois.eu'
     },
-    католик: {
+    'католик': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--80aqecdr1a/'
     },
-    ком: {
+    'ком': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--j1aef/v1/'
     },
-    қаз: {
+    'қаз': {
         whois: 'whois.nic.kz'
     },
-    мкд: {
+    'мкд': {
         whois: 'whois.marnet.mk'
     },
-    мон: {
+    'мон': {
         whois: 'whois.mn'
     },
-    москва: {
+    'москва': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.flexireg.net'
     },
-    онлайн: {
+    'онлайн': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--80asehdb/'
     },
-    орг: {
+    'орг': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    рус: {
+    'рус': {
         whois: 'whois.nic.xn',
         rdap: 'https://api.rdap.nic.xn--p1acf/'
     },
-    рф: {
+    'рф': {
         whois: 'whois.tcinet.ru'
     },
-    сайт: {
+    'сайт': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--80aswg/'
     },
-    срб: {
+    'срб': {
         whois: 'whois.rnids.rs'
     },
-    укр: {
+    'укр': {
         whois: 'whois.dotukr.com'
     },
-    հայ: {
+    'հայ': {
         whois: 'whois.amnic.net'
     },
-    ‏ישראל‎: {
+    '‏ישראל‎': {
         whois: 'whois.isoc.org.il'
     },
-    ‏קום‎: {
+    '‏קום‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--9dbq2a/v1/'
     },
-    ‏ابوظبي‎: {
+    '‏ابوظبي‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--mgbca7dzdo'
     },
-    ‏ارامكو‎: {
+    '‏ارامكو‎': {
         rdap: 'https://rdap.nic.xn--mgba3a3ejt/'
     },
-    ‏الجزائر‎: {
+    '‏الجزائر‎': {
         whois: 'whois.nic.dz'
     },
-    ‏السعودية‎: {
+    '‏السعودية‎': {
         whois: 'whois.nic.net.sa'
     },
-    ‏العليان‎: {
+    '‏العليان‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--mgba7c0bbn0a/'
     },
-    ‏امارات‎: {
+    '‏امارات‎': {
         whois: 'whois.aeda.net.ae'
     },
-    ‏ایران‎: {
+    '‏ایران‎': {
         whois: 'whois.nic.ir'
     },
-    ‏بارت‎: {
+    '‏بارت‎': {
         whois: 'whois.nixiregistry.in'
     },
-    ‏بازار‎: {
+    '‏بازار‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--mgbab2bd/'
     },
-    ‏بھارت‎: {
+    '‏بھارت‎': {
         whois: 'whois.nixiregistry.in'
     },
-    ‏بيتك‎: {
+    '‏بيتك‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.centralnic.com/xn--ngbe9e0a'
     },
-    ‏ڀارت‎: {
+    '‏ڀارت‎': {
         whois: 'whois.nixiregistry.in'
     },
-    ‏تونس‎: {
+    '‏تونس‎': {
         whois: 'whois.ati.tn'
     },
-    ‏سورية‎: {
+    '‏سورية‎': {
         whois: 'whois.tld.sy'
     },
-    ‏شبكة‎: {
+    '‏شبكة‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--ngbc5azd/'
     },
-    ‏عراق‎: {
+    '‏عراق‎': {
         whois: 'whois.cmc.iq'
     },
-    ‏عرب‎: {
+    '‏عرب‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--ngbrx/'
     },
-    ‏عمان‎: {
+    '‏عمان‎': {
         whois: 'whois.registry.om'
     },
-    ‏فلسطين‎: {
+    '‏فلسطين‎': {
         whois: 'whois.pnina.ps'
     },
-    ‏قطر‎: {
+    '‏قطر‎': {
         whois: 'whois.registry.qa'
     },
-    ‏كاثوليك‎: {
+    '‏كاثوليك‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--mgbi4ecexp/'
     },
-    ‏كوم‎: {
+    '‏كوم‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--fhbei/v1/'
     },
-    ‏مليسيا‎: {
+    '‏مليسيا‎': {
         whois: 'whois.mynic.my'
     },
-    ‏موريتانيا‎: {
+    '‏موريتانيا‎': {
         whois: 'whois.nic.mr'
     },
-    ‏موقع‎: {
+    '‏موقع‎': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.centralnic.com/xn--4gbrim/'
     },
-    ‏همراه‎: {
+    '‏همراه‎': {
         rdap: 'https://rdap.nominet.uk/xn--mgbt3dhd/'
     },
-    कॉम: {
+    'कॉम': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--11b4c3d/v1/'
     },
-    नेट: {
+    'नेट': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--c2br7g/v1/'
     },
-    भारत: {
+    'भारत': {
         whois: 'whois.nixiregistry.in'
     },
-    भारतम्: {
+    'भारतम्': {
         whois: 'whois.nixiregistry.in'
     },
-    भारोत: {
+    'भारोत': {
         whois: 'whois.nixiregistry.in'
     },
-    संगठन: {
+    'संगठन': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    ভারত: {
+    'ভারত': {
         whois: 'whois.nixiregistry.in'
     },
-    ভাৰত: {
+    'ভাৰত': {
         whois: 'whois.nixiregistry.in'
     },
-    ਭਾਰਤ: {
+    'ਭਾਰਤ': {
         whois: 'whois.nixiregistry.in'
     },
-    ભારત: {
+    'ભારત': {
         whois: 'whois.nixiregistry.in'
     },
-    ଭାରତ: {
+    'ଭାରତ': {
         whois: 'whois.nixiregistry.in'
     },
-    இந்தியா: {
+    'இந்தியா': {
         whois: 'whois.nixiregistry.in'
     },
-    சிங்கப்பூர்: {
+    'சிங்கப்பூர்': {
         whois: 'whois.ta.sgnic.sg'
     },
-    భారత్: {
+    'భారత్': {
         whois: 'whois.nixiregistry.in'
     },
-    ಭಾರತ: {
+    'ಭಾರತ': {
         whois: 'whois.nixiregistry.in'
     },
-    ഭാരതം: {
+    'ഭാരതം': {
         whois: 'whois.nixiregistry.in'
     },
-    คอม: {
+    'คอม': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--42c2d9a/v1/'
     },
-    ไทย: {
+    'ไทย': {
         whois: 'whois.thnic.co.th',
         rdap: 'https://rdap.thains.co.th'
     },
-    ລາວ: {
+    'ລາວ': {
         whois: 'whois.nic.la'
     },
-    닷넷: {
+    '닷넷': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--t60b56a/v1/'
     },
-    닷컴: {
+    '닷컴': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--mk1bu44c/v1/'
     },
-    삼성: {
+    '삼성': {
         whois: 'whois.kr',
         rdap: 'https://nic.samsung/rdap/'
     },
-    한국: {
+    '한국': {
         whois: 'whois.kr'
     },
-    アマゾン: {
+    'アマゾン': {
         rdap: 'https://rdap.nominet.uk/xn--cckwcxetd/'
     },
-    グーグル: {
+    'グーグル': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    クラウド: {
+    'クラウド': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    コム: {
+    'コム': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--tckwe/v1/'
     },
-    ストア: {
+    'ストア': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    セール: {
+    'セール': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ファッション: {
+    'ファッション': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    ポイント: {
+    'ポイント': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    みんな: {
+    'みんな': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    中信: {
+    '中信': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--fiq64b'
     },
-    中国: {
+    '中国': {
         whois: 'whois.cnnic.cn'
     },
-    中國: {
+    '中國': {
         whois: 'whois.cnnic.cn'
     },
-    中文网: {
+    '中文网': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/xn--fiq228c5hs/'
     },
-    亚马逊: {
+    '亚马逊': {
         rdap: 'https://rdap.nominet.uk/xn--jlq480n2rg/'
     },
-    企业: {
+    '企业': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    佛山: {
+    '佛山': {
         whois: 'whois.ngtld.cn',
         rdap: 'https://restwhois.ngtld.cn/'
     },
-    信息: {
+    '信息': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/'
     },
-    健康: {
+    '健康': {
         rdap: 'https://rdap.teleinfo.cn/xn--nyqy26a/'
     },
-    八卦: {
+    '八卦': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/XN--45Q11C'
     },
-    公司: {
+    '公司': {
         whois: 'whois.ngtld.cn',
         rdap: 'https://restwhois.ngtld.cn/'
     },
-    公益: {
+    '公益': {
         whois: 'whois.conac.cn',
         rdap: 'https://rdap.conac.cn/'
     },
-    台湾: {
+    '台湾': {
         whois: 'whois.twnic.net.tw'
     },
-    台灣: {
+    '台灣': {
         whois: 'whois.twnic.net.tw',
         rdap: 'https://ccrdap.twnic.tw/taiwan/'
     },
-    商城: {
+    '商城': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--czru2d'
     },
-    商店: {
+    '商店': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    商标: {
+    '商标': {
         rdap: 'https://rdap.zdnsgtld.com/xn--czr694b'
     },
-    嘉里: {
+    '嘉里': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--w4rs40l/v1/'
     },
-    嘉里大酒店: {
+    '嘉里大酒店': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--w4r85el8fhu5dnra/v1/'
     },
-    在线: {
+    '在线': {
         whois: 'whois.teleinfo.cn',
         rdap: 'https://rdap.teleinfo.cn/xn--3ds443g/'
     },
-    大拿: {
+    '大拿': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--pssy2u/v1/'
     },
-    天主教: {
+    '天主教': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--tiq49xqyj/'
     },
-    娱乐: {
+    '娱乐': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    家電: {
+    '家電': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    广东: {
+    '广东': {
         whois: 'whois.ngtld.cn',
         rdap: 'https://restwhois.ngtld.cn/'
     },
-    微博: {
+    '微博': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    慈善: {
+    '慈善': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--30rr7y'
     },
-    我爱你: {
+    '我爱你': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--6qq986b3xl'
     },
-    手机: {
+    '手机': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.teleinfo.cn/xn--kput3i/'
     },
-    招聘: {
+    '招聘': {
         rdap: 'https://rdap.zdnsgtld.com/xn--otu796d'
     },
-    政务: {
+    '政务': {
         whois: 'whois.conac.cn',
         rdap: 'https://rdap.conac.cn'
     },
-    政府: {
+    '政府': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.twnic.tw/rdap/'
     },
-    新加坡: {
+    '新加坡': {
         whois: 'whois.zh.sgnic.sg'
     },
-    新闻: {
+    '新闻': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.zdnsgtld.com/XN--EFVY88H'
     },
-    时尚: {
+    '时尚': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--9et52u'
     },
-    書籍: {
+    '書籍': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    机构: {
+    '机构': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    淡马锡: {
+    '淡马锡': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    游戏: {
+    '游戏': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    澳門: {
+    '澳門': {
         whois: 'whois.monic.mo'
     },
-    点看: {
+    '点看': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--3pxu8k/v1/'
     },
-    移动: {
+    '移动': {
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    组织机构: {
+    '组织机构': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.publicinterestregistry.org/rdap/'
     },
-    网址: {
+    '网址': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.zdnsgtld.com/xn--ses554g'
     },
-    网店: {
+    '网店': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--hxt814e'
     },
-    网站: {
+    '网站': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    网络: {
+    '网络': {
         whois: 'whois.ngtld.cn',
         rdap: 'https://restwhois.ngtld.cn/'
     },
-    联通: {
+    '联通': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.zdnsgtld.com/xn--8y0a063a'
     },
-    谷歌: {
+    '谷歌': {
         rdap: 'https://pubapi.registry.google/rdap/'
     },
-    购物: {
+    '购物': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--g2xx48c/'
     },
-    通販: {
+    '通販': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    集团: {
+    '集团': {
         whois: 'whois.gtld.knet.cn',
         rdap: 'https://rdap.zdnsgtld.com/xn--3bst00m'
     },
-    電訊盈科: {
+    '電訊盈科': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    飞利浦: {
+    '飞利浦': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.nic.xn--kcrx77d1x4a/'
     },
-    食品: {
+    '食品': {
         whois: 'whois.nic.xn',
         rdap: 'https://rdap.identitydigital.services/rdap/'
     },
-    餐厅: {
+    '餐厅': {
         rdap: 'https://rdap.zdnsgtld.com/xn--imr513n'
     },
-    香格里拉: {
+    '香格里拉': {
         whois: 'whois.nic.xn',
         rdap: 'https://tld-rdap.verisign.com/xn--5su34j936bgsg/v1/'
     },
-    香港: {
+    '香港': {
         whois: 'whois.hkirc.hk'
     }
 };

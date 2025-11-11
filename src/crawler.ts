@@ -244,7 +244,7 @@ async function generateServersFile(data: LookUpRecord): Promise<void> {
       const indent = '        ';
       const propsStr = props.join(`,\n${indent}`);
 
-      return `    ${tld}: {\n${indent}${propsStr}\n    }`;
+      return `    '${tld}': {\n${indent}${propsStr}\n    }`;
     })
     .join(',\n');
 
