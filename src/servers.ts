@@ -1,4 +1,4 @@
-import type { LookUpEntry, LookUpRecord } from './types';
+import type { LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
     'aaa': {

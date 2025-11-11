@@ -248,7 +248,7 @@ async function generateServersFile(data: LookUpRecord): Promise<void> {
     })
     .join(',\n');
 
-  const content = `import type { LookUpEntry, LookUpRecord } from './types';
+  const content = `import type { LookUpRecord } from './types';
 
 export const domainLookUpServers: LookUpRecord = {
 ${entries}
